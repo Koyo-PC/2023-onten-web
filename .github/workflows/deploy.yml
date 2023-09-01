@@ -13,10 +13,10 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Install SSH key
-        uses: shimataro/ssh-key-action@v2
+      - name: Reload server
+        uses: appleboy/ssh-action@master
         with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
-          known_hosts: ${{ secrets.KNOWN_HOSTS }}
-      - name: Reload
-        run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -t -i ~/.ssh/id_rsa　'bash -c -l "~/www/onten2023/start.sh"'
+          script: bash -c -l "~/www/onten2023/start.sh"
