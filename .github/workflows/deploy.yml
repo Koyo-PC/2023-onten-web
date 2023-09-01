@@ -1,0 +1,22 @@
+name: Deploy to AWS
+
+on:
+  workflow_dispatch:
+  push:
+#    branches-ignore: # Disable
+#      - '**'
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v1
+        with:
+          key: ${{ secrets.SSH_KEY }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
+      - name: Reload
+        run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} ~/www/onten2023/start.sh
