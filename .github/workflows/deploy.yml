@@ -19,4 +19,4 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           known_hosts: ${{ secrets.KNOWN_HOSTS }}
       - name: Reload
-        run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -i ~/.ssh/id_rsa ~/www/onten2023/start.sh
+        run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -i ~/.ssh/id_rsa　'bash -c -l "~/www/onten2023/start.sh"'
