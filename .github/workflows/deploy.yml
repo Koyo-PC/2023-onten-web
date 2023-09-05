@@ -19,4 +19,4 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
-          script: bash -c -l "~/www/onten2023/start.sh"
+          script: ~/www/onten2023/start.sh
