@@ -23,6 +23,8 @@
     display:flex;
 }
  .access-image{
+  padding-bottom: 10px;
+  padding-top:10px;
     Width:50%;
  }
  .acess-text{
