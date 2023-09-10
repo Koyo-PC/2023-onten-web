@@ -61,47 +61,14 @@ ul li {
   width:100vw;
   height: 40rem;
 }
-<<<<<<< HEAD
+
 
 
 #display_content {
   width: 100%;
   
 }
-#display_content > div {
-  width: 100%;
-  height: 100%;
-}
-.buttons {
-  width: 100%;
-  height: 100px;
-}
-.button {
-  width: calc(50% - 2px); /* borderの厚みを引いておく*/
-  height: calc(100% - 2px);
-  text-align: center;
-  border: 1px solid aqua;
-float: left;
-  color: aqua;
-  background-color: aqua;
-}
-.button.clicked {
-  color: black;
-  background-color: aqua;
-}
-.bus1 {width: 50%;height: 40%;margin-bottom: 10px;}
-.bus3{width:50%;height:40%;}
-.bus5{width:65%;height:65%;}
-.bus7{width:65%;height:65%;}
-.bus9 {width:65%;height:65%;}
-.bus2{float: right;width: 50%;height: 100%;}
-.bus4{float: right;width: 50%;height: 40%;}
-.accessmain{
 
- width:60%;
- margin:0 auto;
-}
-=======
 /* リアルタイム日付 */
 .count-countdown{
   display: flex;
@@ -119,4 +86,4 @@ float: left;
   text-align: center;
 }
 /* ここまで */
->>>>>>> 9439596c1387ec9c4e51733958b43bee74ec2e04
+
