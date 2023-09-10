@@ -61,80 +61,42 @@ ul li {
   width:100vw;
   height: 40rem;
 }
-<<<<<<< HEAD
-.ow{
-  width:300px;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-=======
 
-/* タイムテーブル陽　ｃｓｓ */
-caption {
-  margin-bottom: 20px;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: left;
-}
-.timeTable {
-  clear: both;
-}
-.col2of4 {
-  width: 400px;
-  float: left;
-  zoom: 1;
-}
-.tableBox{
-  margin: 0 10px;
-}
-table {
+
+#display_content {
   width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;
-  border-spacing: 0;
-  border: none;
+  
 }
-th,td {
-  border: 1px solid #fff;
+#display_content > div {
+  width: 100%;
+  height: 100%;
 }
-th {
-  width: 70px;
-  font-size:12px;
-  color: #fff;
+.buttons {
+  width: 100%;
+  height: 100px;
+}
+.button {
+  width: calc(50% - 2px); /* borderの厚みを引いておく*/
+  height: calc(100% - 2px);
   text-align: center;
-  background-color: #2C3E5C;
-  vertical-align: top;
+  border: 1px solid aqua;
+float: left;
+  color: aqua;
+  background-color: aqua;
 }
-td {
-  height: 25px;
-  padding: 0 10px;
-  font-size: 14px;
-  text-align: center;
-  background: #f3f4ef;
+.button.clicked {
+  color: black;
+  background-color: aqua;
 }
-.borderNone {
-  border-bottom: 1px solid #2C3E5C;
+.bus1 {width: 50%;height: 40%;margin-bottom: 10px;}
+.bus3{width:50%;height:40%;}
+.bus5{width:65%;height:65%;}
+.bus7{width:65%;height:65%;}
+.bus9 {width:65%;height:65%;}
+.bus2{float: right;width: 50%;height: 100%;}
+.bus4{float: right;width: 50%;height: 40%;}
+.accessmain{
+
+ width:60%;
+ margin:0 auto;
 }
-.tableBox th.just {
-  padding-top: 7px;
-  box-sizing: border-box;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1;
-}
-.color01{
-  background:#D8C8AE;
-}
-.color02 {
-  background: #80B7E8;
-}
-.line2 {
-  height: 51px;
-}
-.line3 {
-  height: 77px;
-}
-caption{text-align: center;}
-/* ここまでタイムテーブル */
->>>>>>> 4e737409ea7ed422f1e8ee1ad353b0d311e491b8
