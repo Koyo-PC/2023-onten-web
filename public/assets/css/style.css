@@ -61,6 +61,7 @@ ul li {
   width:100vw;
   height: 40rem;
 }
+<<<<<<< HEAD
 
 
 #display_content {
@@ -100,3 +101,22 @@ float: left;
  width:60%;
  margin:0 auto;
 }
+=======
+/* リアルタイム日付 */
+.count-countdown{
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  block-size: 70px;
+  width: 570px;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.count-h1{
+  font-size: 50px;
+  text-align: center;
+}
+/* ここまで */
+>>>>>>> 9439596c1387ec9c4e51733958b43bee74ec2e04
