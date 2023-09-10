@@ -19,15 +19,18 @@
     color: black;
     background-color: aqua;
   }
-  .bus1 {width: 50%;height: 40%;margin-bottom: 10px;}
-  .bus3{width:50%;height:40%;}
-  .bus5{width:65%;height:65%;}
-  .bus7{width:65%;height:65%;}
-  .bus9 {width:65%;height:65%;}
-  .bus2{float: right;width: 50%;height: 100%;}
-  .bus4{float: right;width: 50%;height: 40%;}
+  .each-bus {
+    display:flex;
+}
+ .access-image{
+  padding-bottom: 10px;
+  padding-top:10px;
+    Width:50%;
+ }
+ .acess-text{
+    font-size:20px;
+ }
   .accessmain{
-  
    width:60%;
    margin:0 auto;
   }
