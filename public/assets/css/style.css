@@ -61,15 +61,12 @@ ul li {
   width:100vw;
   height: 40rem;
 }
-<<<<<<< HEAD
 .ow{
   width:300px;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
 }
-=======
-
 /* タイムテーブル陽　ｃｓｓ */
 caption {
   margin-bottom: 20px;
@@ -137,4 +134,3 @@ td {
 }
 caption{text-align: center;}
 /* ここまでタイムテーブル */
->>>>>>> 4e737409ea7ed422f1e8ee1ad353b0d311e491b8
