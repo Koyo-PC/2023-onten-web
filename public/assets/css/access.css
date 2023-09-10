@@ -27,8 +27,11 @@
   padding-top:10px;
     Width:50%;
  }
- .acess-text{
-    font-size:20px;
+ .access-text{
+    
+    color: white;
+    font-family:"NoTo Sans JP",sans-serif;
+    font-size: 1em;
  }
   .accessmain{
    width:60%;
