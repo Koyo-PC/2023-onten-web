@@ -22,15 +22,17 @@
   .each-bus {
     display:flex;
 }
+.each-train{
+  display:flex;
+}
  .access-image{
   padding-bottom: 10px;
   padding-top:10px;
     Width:50%;
  }
  .access-text{
-    
-    color: white;
-    font-family:"NoTo Sans JP",sans-serif;
+   color: white;
+   font-family:"NoTo Sans JP",sans-serif;
     font-size: 1em;
  }
   .accessmain{
