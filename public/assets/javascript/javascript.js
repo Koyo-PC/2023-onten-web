@@ -50,5 +50,5 @@ function countdown() {
   }
 }
 
-setInterval(countdown, 500);
+setInterval(countdown, 1000);
 // ここまで
