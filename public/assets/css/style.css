@@ -83,8 +83,8 @@ ul li {
 .count-div1{
   height: auto;
   position: absolute;
-  top: 2px;
-  left: 15%;
+  top: 1350px;
+  left: 20%;
 }
 .count-countdown{
   font-size: 40px;
@@ -101,7 +101,7 @@ ul li {
 .count-blue{
   margin: 0 auto;
 }
-p img{
+.count-blue img{
   width: 750px;
   margin: 0 auto;
 }
