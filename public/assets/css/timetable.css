@@ -26,6 +26,8 @@
   font-size: 14px;
   text-align: center;
   background-color: rgba(0,255,255,0.4);
+  font-family:"MS Pゴシック", sans-serif;
+  font-weight: bold;
 }
 .time-table td{
   height: 25px;
@@ -35,12 +37,12 @@
   background-color:whitesmoke;
   font-size: 20px;
   height:60px;
-  width:150px;
   border : 1px solid whitesmoke;
   border-bottom: 3px solid whitesmoke;
   font-family:"MS Pゴシック", sans-serif;
-
 }
+.long{width: 160px;}
+.ll{width: 120px;}
 .positionsticky{
   position: sticky;
   top: 0;
@@ -71,4 +73,6 @@
   font-size: 14px;
   text-align: center;
   background-color: rgba(0,255,255,0.4);
+  font-family:"MS Pゴシック", sans-serif;
+  font-weight: bold;
 }
