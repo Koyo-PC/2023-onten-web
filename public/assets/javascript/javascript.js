@@ -10,7 +10,7 @@ particlesJS("particles-js", {"particles":{"number":{"value":96,"density":{"enabl
 'use strict';
 
 function countdown(){
-    const targetDate = new Date( 2023, 8, 23, 9, 0, 0);
+    const targetDate = new Date( 2023, 8, 23, 0, 0, 0);
     const endgetDate = new Date( 2023, 8, 23, 16, 0, 0);
     const now = new Date();
     const distance = targetDate.getTime() - now.getTime();
@@ -20,15 +20,28 @@ function countdown(){
     const calshours = Math.floor( ( distance % ( 1000 * 60 * 60 * 24 ) ) / ( 1000 * 60 * 60 ) );
     const calsminutes = Math.floor( ( distance % ( 1000 * 60 * 60 ) ) / ( 1000 * 60 ) );
     const calsseconds = Math.floor( ( distance % ( 1000 * 60 ) ) / 1000 );
-
+    var sec;
+    var min;
+    var hour;
+    if(calsseconds<10)sec='0'+calsseconds;
+    else sec=calsseconds;
+    if(calsminutes<10)min='0'+calsminutes;
+    else min=calsminutes;
+    if(calshours<10)hour='0'+calshours;
+    else hour=calshours;
   if(distance >= 0){
-    document.getElementById("countdown").innerText=calsdays + "日" + calshours + "時間" + calsminutes + "分" + calsseconds + "秒";
+    if(calsdays<=0){
+      if(calshours>0)document.getElementById("countdown").innerText=calshours+"時間"+min+ "分" + sec + "秒";
+      else if(calsminutes>0)document.getElementById("countdown").innerText=calsminutes + "分" + sec + "秒";
+      else document.getElementById("countdown").innerText=calsseconds + "秒";
+    }
+    else document.getElementById("countdown").innerText=calsdays + "日" + hour + "時間" + min + "分" + sec + "秒";
   }
   else if(span >= 0){
     document.getElementById("countdown").innerText="音展当日！！";
   }
   else{
-    document.getElementById("countdown").innerText="音展ありがとうございました";
+    document.getElementById("countdown").innerText="音展終了！！";
   }
 }
 
