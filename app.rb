@@ -32,7 +32,7 @@ get '/buturidoukoukai' do
 end
  
 get '/kagakubu' do
-  erb :kagakubu
+  erb:kagakubu
 end
 
 get '/shougibu' do
@@ -89,4 +89,8 @@ end
 
 get '/supuradoukoukai' do
   erb:supuradoukoukai
+end
+
+get '/bunngei-tosho' do
+  erb:bunngei-tosho
 end
