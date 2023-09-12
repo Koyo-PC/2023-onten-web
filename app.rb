@@ -36,5 +36,9 @@ get '/kagakubu' do
 end
 
 get '/shougibu' do
-  erb:kagakubu
+  erb:shougibu
+end
+
+get '/tirekibu' do
+  erb:tirekibu
 end
