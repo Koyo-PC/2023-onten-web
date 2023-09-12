@@ -26,3 +26,7 @@ end
 get '/circle' do
   erb :circle
 end
+
+get '/buturidoukoukai' do
+  erb :buturidoukoukai   
+end
