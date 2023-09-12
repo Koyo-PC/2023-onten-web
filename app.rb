@@ -62,3 +62,31 @@ end
 get '/shasinnbu' do
   erb:shasinnbu
 end
+
+get '/sugakudoukoukai' do
+  erb:sugakudoukoukai
+end
+
+get '/pcdoukoukai' do
+  erb:pcdoukoukai
+end
+
+get '/keionndoukoukai' do
+  erb:keionndoukoukai
+end
+
+get '/kizyutudoukoukai' do
+  erb:kizyutudoukoukai
+end
+
+get '/tetudoudoukoukai' do
+  erb:tetudoudoukoukai
+end
+
+get '/ryokoudoukoukai' do
+  erb:ryokoudoukoukai
+end
+
+get '/supuradoukoukai' do
+  erb:supuradoukoukai
+end
