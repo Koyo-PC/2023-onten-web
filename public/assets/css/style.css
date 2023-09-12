@@ -87,6 +87,10 @@ ul li {
   background-image: url(/assets/images/realtimebackground.png);
   background-size: cover;
   position: relative;
+ 
+}
+#countdown{
+  font-family: "mega", sans-serif;
 }
 .count-countdown{
   font-size: 90px;

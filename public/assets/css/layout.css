@@ -8,4 +8,7 @@
 @font-face {
     font-family: "fgm";
     src: url("/assets/fonts/def/fgm.ttf") format("truetype");
+    font-family: "mega";
+    src: url("/assets/fonts/megafont.ttf") format("truetype");
+
   }
