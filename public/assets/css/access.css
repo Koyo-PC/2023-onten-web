@@ -10,14 +10,14 @@
     width: calc(50% - 2px); /* borderの厚みを引いておく*/
     height: calc(100% - 2px);
     text-align: center;
-    border: 1px solid aqua;
+    border: 1px solid white;
   float: left;
-    color: aqua;
-    background-color: aqua;
+    color: black;
+    background-color: white;
   }
   .button.clicked {
     color: black;
-    background-color: aqua;
+    background-color: white;
   }
   .each-bus {
     display:flex;
@@ -32,7 +32,7 @@
  }
  .access-text{
    color: white;
-   font-family:"NoTo Sans JP",sans-serif;
+   font-family: sans-serif;
     font-size: 1em;
  }
   .accessmain{

@@ -16,4 +16,5 @@ function button_pushed(val) {
     }
   }
   // 最初はバスを表示させておく
-  button_pushed('content_train')
+  // button_pushed('content_train')
+  window.onload = () => {button_pushed('bus')}
