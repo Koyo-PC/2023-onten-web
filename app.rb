@@ -32,65 +32,61 @@ get '/buturidoukoukai' do
 end
  
 get '/kagakubu' do
-  erb:kagakubu
+  erb :kagakubu
 end
 
 get '/shougibu' do
-  erb:shougibu
+  erb :shougibu
 end
 
 get '/tirekibu' do
-  erb:tirekibu
+  erb :tirekibu
 end
 
 get '/tennmonnbu' do
-  erb:tennmonnbu
+  erb :tennmonnbu
 end
 
 get '/bizyutubu' do
-  erb:bityutubu
+  erb :bizyutubu
 end
 
 get '/annsannburubu' do
-  erb:annsannburubu
+  erb :annsannburubu
 end
 
 get '/essbu' do
-  erb:essbu
+  erb :essbu
 end
 
 get '/shasinnbu' do
-  erb:shasinnbu
+  erb :shasinnbu
 end
 
 get '/sugakudoukoukai' do
-  erb:sugakudoukoukai
+  erb :sugakudoukoukai
 end
 
 get '/pcdoukoukai' do
-  erb:pcdoukoukai
+  erb :pcdoukoukai
 end
 
 get '/keionndoukoukai' do
-  erb:keionndoukoukai
+  erb :keionndoukoukai
 end
 
 get '/kizyutudoukoukai' do
-  erb:kizyutudoukoukai
+  erb :kizyutudoukoukai
 end
 
 get '/tetudoudoukoukai' do
-  erb:tetudoudoukoukai
+  erb :tetudoudoukoukai
 end
 
 get '/ryokoudoukoukai' do
-  erb:ryokoudoukoukai
+  erb :ryokoudoukoukai
 end
 
 get '/supuradoukoukai' do
-  erb:supuradoukoukai
-end
-
-get '/bunngei-tosho' do
-  erb:bunngei-tosho
+  erb :supuradoukoukai
 end
