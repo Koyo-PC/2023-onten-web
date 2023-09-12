@@ -1,14 +1,14 @@
 .time-body{
-  background-color: white;
+  background-color: #111111;
 }
 .time-table {
-  width: 70%;
-  box-shadow: 0px 0px 10px 5px #888;
+  width: 80%;
+  box-shadow: 0px 0px 10px 5px #f0f0f0;
   margin: auto;
   /* table-layout: fixed; */
   border-collapse: collapse;
   word-wrap: break-word;
-  background-color: white;
+  background-color: rgb(121,121,121);
 }
 .time-time {
   border-top: 1px solid #111111;
@@ -20,12 +20,14 @@
   background-color: whitesmoke;
   vertical-align: top;
   font-family :'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
 }
 .time-event {
-  border : 1px solid white;
+  border : 1px solid rgb(121,121,121);
   font-size: 14px;
+  font-weight: bolder;
   text-align: center;
-  background-color: rgba(0,255,255,0.4);
+  background-color: rgba(0,255,255,0.765);
 }
 .time-table td{
   height: 25px;
@@ -37,9 +39,9 @@
   height:60px;
   width:150px;
   border : 1px solid whitesmoke;
-  border-bottom: 3px solid whitesmoke;
+  border-bottom: 3px solid rgb(121,121,121);
   font-family:"MS Pゴシック", sans-serif;
-
+  font-weight: bolder;
 }
 .positionsticky{
   position: sticky;
@@ -47,9 +49,10 @@
 }
 .time-midasi{
   text-align: center;
-  color:#111111;
+  color:#05c8e6;
   font-size: 400%;
   font-family :'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
 }
 .time-nonl{
   background-color: whitesmoke;
@@ -66,9 +69,15 @@
   border-bottom: 1px solid #111111;
 }
 .time-event-left {
-  border: 1px  solid white;
-  border-left:1px  solid whitesmoke;
+  border: 1px  solid rgb(121,121,121);
   font-size: 14px;
+  font-weight: bolder;
   text-align: center;
-  background-color: rgba(0,255,255,0.4);
+  background-color: rgba(0,255,255,0.765);
 }
+.time-starttime{
+  text-align: left;
+  vertical-align: top;
+  font-size: 7px;
+}
+td{border: 1px  solid rgb(121,121,121);}
