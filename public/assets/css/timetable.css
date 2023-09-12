@@ -1,5 +1,8 @@
+.time-body{
+  background-color: white;
+}
 .time-table {
-  width: 60%;
+  width: 70%;
   box-shadow: 0px 0px 10px 5px #888;
   margin: auto;
   /* table-layout: fixed; */
@@ -11,31 +14,35 @@
   border-top: 1px solid #111111;
   width: 25px;
   font-size:15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: black;
   text-align: center;
   background-color: whitesmoke;
   vertical-align: top;
+  font-family :'Arial Narrow Bold', sans-serif;
 }
 .time-event {
   border-bottom: 1px solid white;
   font-size: 14px;
   text-align: center;
   background-color: rgba(0,255,255,0.4);
+  font-family:"MS Pゴシック", sans-serif;
+  font-weight: bold;
 }
 .time-table td{
   height: 25px;
-  width:88px;
 }
 .time-title{
   text-align: center;
   background-color:whitesmoke;
   font-size: 20px;
-  height:50px;
-  width:90px;
+  height:60px;
   border : 1px solid whitesmoke;
   border-bottom: 3px solid whitesmoke;
-
+  font-family:"MS Pゴシック", sans-serif;
 }
+.long{width: 160px;}
+.ll{width: 120px;}
 .positionsticky{
   position: sticky;
   top: 0;
@@ -43,7 +50,8 @@
 .time-midasi{
   text-align: center;
   color:#111111;
-  font-size:100px ;
+  font-size: 400%;
+  font-family :'Arial Narrow Bold', sans-serif;
 }
 .time-nonl{
   background-color: whitesmoke;
@@ -65,4 +73,6 @@
   font-size: 14px;
   text-align: center;
   background-color: rgba(0,255,255,0.4);
+  font-family:"MS Pゴシック", sans-serif;
+  font-weight: bold;
 }
