@@ -1,3 +1,11 @@
 .yield-main{
-    background-color: #ffffff;
+    background-color: #000000;
+    /* /* background-image: url("/assets/images/background.webp"); */
+    /* background-position:fixed; */
+    height:10000px;
 }
+
+@font-face {
+    font-family: "fgm";
+    src: url("/assets/fonts/def/fgm.ttf") format("truetype");
+  }
