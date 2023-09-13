@@ -90,3 +90,7 @@ end
 get '/supuradoukoukai' do
   erb :supuradoukoukai
 end
+
+get '/member' do
+  erb :member
+end
