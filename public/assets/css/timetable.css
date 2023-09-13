@@ -11,6 +11,7 @@
   background-color: rgb(144,144,144);
   font-family: "square", sans-serif;
   font-family: "makinas-4-square";
+  z-index:10;
 }
 .time-timel {
   border-top: 1px solid #111111;
@@ -65,7 +66,7 @@
 }
 .positionsticky{
   position: sticky;
-  top: 0;
+  top: 50px;
 }
 .time-midasi{
   text-align: center;
