@@ -8,7 +8,7 @@
   /* table-layout: fixed; */
   border-collapse: collapse;
   word-wrap: break-word;
-  background-color: rgb(121,121,121);
+  background-color: rgb(144,144,144);
 }
 .time-timel {
   border-top: 1px solid #111111;
@@ -37,7 +37,7 @@
   font-weight: bolder;
 }
 .time-event {
-  border : 1px solid rgb(121,121,121);
+  border : 1px solid rgb(144,144,144);
   border-radius: 20px ;
   font-size: 16px;
   font-weight: bolder;
@@ -51,11 +51,11 @@
   height:60px;
   width:150px;
   /* border-top : 1px solid whitesmoke;  */
-  border-bottom: 1px solid rgb(121,121,121);
+  border-bottom: 1px solid rgb(144,144,144);
   border-radius: 30px;
   font-family:"MS Pゴシック", sans-serif;
   font-weight: bolder;
-  box-shadow: 0px 0px 5px 5px rgb(121,121,121);
+  box-shadow: 0px 0px 5px 5px rgb(144,144,144);
 
 }
 .positionsticky{
@@ -72,7 +72,7 @@
 .time-nonl{
   background-color: whitesmoke;
   border: 1px solid whitesmoke;
-  border-right: rgb(121,121,121);
+  border-right: rgb(144,144,144);
   height:60px;
   width: 50px;
   border-bottom: 1px solid #111111;
@@ -86,7 +86,7 @@
   border-bottom: 1px solid #111111;
 }
 .time-event-left {
-  border: 1px  solid rgb(121,121,121);
+  border: 1px  solid rgb(144,144,144);
   border-radius: 20px;
   font-size: 16px;
   font-weight: bolder;
@@ -100,7 +100,7 @@
 }
 .time-table td{
   height: 25px;
-  border: 1px  solid rgb(121,121,121);
+  border: 1px  solid rgb(144,144,144);
 }
 .time-bot{
   border-bottom: 1px solid whitesmoke;
