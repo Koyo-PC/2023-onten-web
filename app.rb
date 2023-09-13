@@ -23,6 +23,10 @@ get '/timetable' do
   erb :timetable
 end
 
+get '/member' do
+  erb :member
+end
+
 get '/circle' do
   erb :circle
 end

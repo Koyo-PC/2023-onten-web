@@ -5,25 +5,22 @@
 html,body{
     height:100%;
 }
-font-family: "makinas-4-square", sans-serif;
-font-weight: 400;
-font-style: normal;
-ul li a {
+.layout-ul li a {
   color: gray;
   display: block;
   text-decoration: none;
   padding: 0 20px;
 }
-ul li a:hover {
+.layout-ul li a:hover {
   color: red;
   background-color: lightsteelblue;
 }
-nav {
+.layout-nav {
     background-color: white;
     width: 100%;
     height: 50px;
 }
-ul li {
+.layout-ul li {
     list-style: none;
     display: block;
     float: left;
@@ -34,7 +31,6 @@ ul li {
     width: 100%; 
     height: 40rem; 
     background-color: #006dff; 
-    background-image: url(""); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -61,7 +57,7 @@ ul li {
 }
 #wrapper{
   position:relative;
-  width:100vw;
+  width:100%;
   height: 40rem;
 }
 
@@ -80,6 +76,10 @@ ul li {
 }
 .sub-date{
   font-size:100px;
+}
+
+.index-main{
+
 }
 
 /* リアルタイム日付 */

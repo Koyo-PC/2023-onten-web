@@ -1,8 +1,10 @@
 .yield-main{
-    background-color: #000000;
-    /* /* background-image: url("/assets/images/background.webp"); */
-    /* background-position:fixed; */
-    height:10000px;
+    background-image:url("/assets/images/background.webp");
+  background-repeat:
+      repeat;
+  background-position:50% 50%;
+  background-size:1464px 728px;
+  background-attachment: fixed;
 }
 
 @font-face {
@@ -12,3 +14,7 @@
     src: url("/assets/fonts/megafont.ttf") format("truetype");
 
   }
+
+  font-family: "makinas-4-square", sans-serif;
+font-weight: 400;
+font-style: normal;
