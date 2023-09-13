@@ -10,10 +10,11 @@
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
+    font-family: "makinas-4-square";
 }
 .circle-main{
     position: relative;
-    padding: 50px 10%;
+    padding: 70px 10%;
     font-weight: 400;
     font-family: "makinas-4-square";
     color: white;
@@ -22,4 +23,37 @@
     display: block;
     max-width: 300px;
     margin: 0 auto;
+}
+.meta-button{
+    display: block;
+    font-size: 1.2rem;
+    color: unset;
+    text-decoration: none;
+    border: gray solid 2px;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: "makinas-4-square";
+}
+.circle-location .meta-loc{
+    display: block;
+    margin-right: 40px;
+    font-size: 1.5rem;
+    font-family: "makinas-4-square";
+}
+.circle-location .meta-title{
+    display: block;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    font-family: "makinas-4-square";
+}
+.circle-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "makinas-4-square";
+}
+.circle-text{
+    margin: 10px 0;
+    font-family: "makinas-4-square";
+    margin:0 auto;
 }
