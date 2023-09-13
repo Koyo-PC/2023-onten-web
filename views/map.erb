@@ -1,0 +1,55 @@
+<style>
+        .button-container {
+            display: flex;
+        }
+
+        .button {
+            margin: 5px;
+        }
+
+        .content {
+            display: none;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="button-container">
+    <button class="button" onclick="showDiv(1)" id="button1">1</button>
+    <button class="button" onclick="showDiv(2)" id="button2">2</button>
+    <button class="button" onclick="showDiv(3)" id="button3">3</button>
+    <button class="button" onclick="showDiv(4)" id="button4">4</button>
+    <button class="button" onclick="showDiv(5)" id="button5">5</button>
+    <button class="button" onclick="showDiv(6)" id="button6">6</button>
+</div>
+
+<div id="content1" class="content" style="display: block;">コンテンツ1</div>
+<div id="content2" class="content">コンテンツ2</div>
+<div id="content3" class="content">コンテンツ3</div>
+<div id="content4" class="content">コンテンツ4</div>
+<div id="content5" class="content">コンテンツ5</div>
+<div id="content6" class="content">コンテンツ6</div>
+
+<script>
+    function showDiv(index) {
+        // すべてのコンテンツを非表示にする
+        for (var i = 1; i <= 6; i++) {
+            var content = document.getElementById('content' + i);
+            content.style.display = 'none';
+
+            // 全てのボタンの色をリセット
+            var button = document.getElementById('button' + i);
+            button.style.backgroundColor = '';
+        }
+
+        // クリックされたボタンに対応するコンテンツを表示する
+        var selectedContent = document.getElementById('content' + index);
+        selectedContent.style.display = 'block';
+
+        // 選択されたボタンに色を付ける
+        var selectedButton = document.getElementById('button' + index);
+        selectedButton.style.backgroundColor = 'lightblue';
+    }
+</script>
