@@ -6,12 +6,12 @@
     margin: 0 10%;
 }
 .circle_name{
-    width: 450px;
+    width: 48%;
     height: 450px;
     background-color: #191919;
     color: aliceblue;
-    margin: 10px;
-    padding: 10px;
+    margin: 1%;
+    padding: 1%;
 }
 .circle_h1{
     color: #05c8e6;
