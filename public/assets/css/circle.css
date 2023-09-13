@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    flex-wrap: wrap;
+    margin: 0 auto;
 }
 .circle_name{
     width: 500px;
@@ -11,5 +11,8 @@
     padding: 10px;
 }
 .circle_h1{
-    color: aliceblue;
+    color: #05c8e6;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
 }
