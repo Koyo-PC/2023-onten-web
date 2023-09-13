@@ -5,17 +5,21 @@
     flex-wrap: wrap;
     margin: 0 10%;
 }
-.circle_name{
-    width: 48%;
-    height: 450px;
-    background-color: #191919;
-    color: aliceblue;
-    margin: 1%;
-    padding: 1%;
-}
-.circle_h1{
-    color: #05c8e6;
+.circle-name{
+    margin: 50px auto;
+    font-size: 2rem;
+    font-weight: 700;
     text-align: center;
-    font-size: 60px;
-    font-weight: bold;
+}
+.circle-main{
+    position: relative;
+    padding: 50px 10%;
+    font-weight: 400;
+    font-family: "makinas-4-square";
+    color: white;
+}
+.circle-images{
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
 }
