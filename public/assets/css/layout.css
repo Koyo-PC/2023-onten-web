@@ -10,10 +10,11 @@
 @font-face {
     font-family: "fgm";
     src: url("/assets/fonts/def/fgm.ttf") format("truetype");
-    font-family: "mega";
-    src: url("/assets/fonts/megafont.ttf") format("truetype");
-
   }
+@font-face {
+    font-family: "mega";
+    src: url("/assets/fonts/def/mega.ttf") format("truetype");
+}
 
   font-family: "makinas-4-square", sans-serif;
 font-weight: 400;

@@ -69,6 +69,7 @@ html,body{
 .date{
   text-align:center;
   margin-top:200px;
+  color:white;
 }
 .main-date{
   font-size:450px;
@@ -90,10 +91,9 @@ html,body{
   background-image: url(/assets/images/realtimebackground.png);
   background-size: cover;
   position: relative;
- 
 }
 #countdown{
-  font-family: "mega", sans-serif;
+  font-family:'mega', sans-serif;
 }
 .count-countdown{
   font-size: 90px;
