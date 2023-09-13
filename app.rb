@@ -48,7 +48,7 @@ get '/tennmonnbu' do
 end
 
 get '/bizyutubu' do
-  erb :bityutubu
+  erb :bizyutubu
 end
 
 get '/annsannburubu' do
@@ -89,4 +89,8 @@ end
 
 get '/supuradoukoukai' do
   erb :supuradoukoukai
+end
+
+get '/bunngeibu-tosho' do
+  erb :bunngeibu-tosho
 end
