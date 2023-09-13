@@ -27,8 +27,8 @@ get '/circle' do
   erb :circle
 end
 
-get '/buturidoukoukai' do
-  erb :buturidoukoukai   
+get '/buturibu' do
+  erb :buturibu  
 end
  
 get '/kagakubu' do
@@ -48,7 +48,7 @@ get '/tennmonnbu' do
 end
 
 get '/bizyutubu' do
-  erb :bityutubu
+  erb :bizyutubu
 end
 
 get '/annsannburubu' do
@@ -91,6 +91,10 @@ get '/supuradoukoukai' do
   erb :supuradoukoukai
 end
 
-get '/member' do
-  erb :member
+get '/bunngeibutosho' do
+  erb :bunngeibutosho
+end
+
+get '/seibutubu' do
+  erb :seibutubu
 end

@@ -1,15 +1,21 @@
 .container{
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    width: 80%;
+    float: left;
+    flex-wrap: wrap;
+    margin: 0 10%;
 }
-.item{
-    width:500px;
-    height:300px;
-    background-color: black;
+.circle_name{
+    width: 48%;
+    height: 450px;
+    background-color: #191919;
     color: aliceblue;
-    margin: 10px;
-    padding:10px;
+    margin: 1%;
+    padding: 1%;
 }
-.circle_b{
-    display:flex;
+.circle_h1{
+    color: #05c8e6;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
 }

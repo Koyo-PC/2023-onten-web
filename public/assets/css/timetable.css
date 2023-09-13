@@ -1,17 +1,18 @@
 .time-body{
-  background-color: #111111;
+  background-color: #191919;
 }
 .time-table {
-  width: 80%;
-  box-shadow: 0px 0px 10px 5px #f0f0f0;
+  width: 78%;
+  box-shadow: 0px 0px 20px 20px #f0f0f0;
   margin: auto;
   /* table-layout: fixed; */
   border-collapse: collapse;
   word-wrap: break-word;
-  background-color: rgb(121,121,121);
+  background-color: rgb(144,144,144);
 }
-.time-time {
+.time-timel {
   border-top: 1px solid #111111;
+  border-left: 1px solid whitesmoke;
   width: 25px;
   font-size:15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -20,15 +21,28 @@
   background-color: whitesmoke;
   vertical-align: top;
   font-family :'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+}
+.time-timer {
+  border-top: 1px solid #111111;
+  border-right: 1px solid whitesmoke;
+  width: 25px;
+  font-size:15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  text-align: center;
+  background-color: whitesmoke;
+  vertical-align: top;
+  font-family :'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
 }
 .time-event {
-  border : 1px solid rgb(121,121,121);
-  font-size: 14px;
+  /* border : 1px solid rgb(144,144,144); */
+  border-radius: 20px ;
+  font-size: 16px;
+  font-weight: bolder;
   text-align: center;
   background-color: rgba(0,255,255,0.765);
-}
-.time-table td{
-  height: 25px;
 }
 .time-title{
   text-align: center;
@@ -36,10 +50,13 @@
   font-size: 20px;
   height:60px;
   width:150px;
-  border : 1px solid whitesmoke;
-  border-bottom: 3px solid rgb(121,121,121);
+  /* border-top : 1px solid whitesmoke;  */
+  border-bottom: 1px solid rgb(144,144,144);
+  border-radius: 30px;
   font-family:"MS Pゴシック", sans-serif;
   font-weight: bolder;
+  box-shadow: 0px 0px 5px 5px rgb(144,144,144);
+
 }
 .positionsticky{
   position: sticky;
@@ -55,20 +72,23 @@
 .time-nonl{
   background-color: whitesmoke;
   border: 1px solid whitesmoke;
-  height:50px;
-  width: 30px;
+  border-right: rgb(144,144,144);
+  height:60px;
+  width: 50px;
   border-bottom: 1px solid #111111;
+
 }
 .time-nonr{
   background-color: whitesmoke;
   border: 1px solid whitesmoke;
-  height:50px;
-  width: 30px;
+  height:60px;
+  width: 50px;
   border-bottom: 1px solid #111111;
 }
 .time-event-left {
-  border: 1px  solid rgb(121,121,121);
-  font-size: 14px;
+  border: 1px  solid rgb(144,144,144);
+  border-radius: 20px;
+  font-size: 16px;
   font-weight: bolder;
   text-align: center;
   background-color: rgba(0,255,255,0.765);
@@ -78,4 +98,10 @@
   vertical-align: top;
   font-size: 7px;
 }
-td{border: 1px  solid rgb(121,121,121);}
+.time-table td{
+  height: 25px;
+  border: 1px  solid rgb(144,144,144);
+}
+.time-bot{
+  border-bottom: 1px solid whitesmoke;
+}
