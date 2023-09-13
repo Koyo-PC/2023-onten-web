@@ -15,7 +15,14 @@
     font-family: "mega";
     src: url("/assets/fonts/def/mega.ttf") format("truetype");
 }
-
+@font-face {
+    font-family: "flat";
+    src: url("/assets/fonts/def/flat.otf") format("opentype");
+}
+@font-face {
+    font-family: "square";
+    src: url("/assets/fonts/def/square.otf") format("opentype");
+}
   font-family: "makinas-4-square", sans-serif;
 font-weight: 400;
 font-style: normal;
