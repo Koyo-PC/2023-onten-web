@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+html{
+  position: relative;
+}
 html,body{
     height:100%;
 }

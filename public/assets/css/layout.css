@@ -24,6 +24,33 @@
     font-family: "square";
     src: url("/assets/fonts/def/square.otf") format("opentype");
 }
+@keyframes fadeOut {
+  from {
+      opacity: 1;
+  }
+  to {
+      display: none;
+      opacity: 0;
+      z-index: -1;
+  }
+}
+
+#loader {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(24, 22, 22);
+  top:0;
+  z-index:100000;
+  /* 環境によって「z-index」追加 */
+}
+/* 読み込み完了後に「loaded」を付与する */
+#loader.loaded {
+  animation: fadeOut 3s forwards;
+}
+.loadimg{
+  max-width: 100rem ;
+}
   font-family: "makinas-4-square", sans-serif;
 font-weight: 400;
 font-style: normal;
