@@ -1,3 +1,9 @@
+.map-main{
+    position: relative;
+    padding: 50px 10%;
+    font-weight: 400;
+    overflow-x: hidden;
+}
 .button-container{
     width:70%;
     margin:0 auto;
@@ -5,4 +11,16 @@
 }
 .map-text{
     color:white;
+}
+.map-title{
+    font-family: "makinas-4-square";
+    color:white;
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.map{
+    margin: 0 -5vw;
+    padding: 20px;
 }

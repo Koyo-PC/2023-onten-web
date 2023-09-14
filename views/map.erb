@@ -7,36 +7,40 @@
             border:3px solid gray;
         }
 
-        .content {
+        .map-content {
             display: none;
-            border: 1px solid #ccc;
             padding: 10px;
         }
     </style>
-</head>
-<body>
-
-<div class="button-container">
-    <button class="button" onclick="showDiv(1)" id="button1">南1F</button>
-    <button class="button" onclick="showDiv(2)" id="button2">南2F/北1F</button>
-    <button class="button" onclick="showDiv(3)" id="button3">南3F/北2F</button>
-    <button class="button" onclick="showDiv(4)" id="button4">南4F/北3F</button>
-    <button class="button" onclick="showDiv(5)" id="button5">北4F</button>
-    <button class="button" onclick="showDiv(6)" id="button6">運動場</button>
+    <link rel="stylesheet" href="/assets/css/map.css">
+    <div class="map-main">
+        <h1 class="map-title">校内地図</h1>
+        <div class="map">
+            <div class="map-image">
+                <div id="content1" class="map-content" style="display: block;"><p class="map-text">ここにマップを表示</p></div>
+                <div id="content2" class="map-content">コンテンツ2</div>
+                <div id="content3" class="map-content">コンテンツ3</div>
+                <div id="content4" class="map-content">コンテンツ4</div>
+                <div id="content5" class="map-content">コンテンツ5</div>
+                <div id="content6" class="map-content">コンテンツ6</div>
+            </div>
+            <div class="button-container">
+            <button class="button" onclick="showDiv(1)" id="button1">南1F</button>
+            <button class="button" onclick="showDiv(2)" id="button2">南2F/北1F</button>
+            <button class="button" onclick="showDiv(3)" id="button3">南3F/北2F</button>
+            <button class="button" onclick="showDiv(4)" id="button4">南4F/北3F</button>
+            <button class="button" onclick="showDiv(5)" id="button5">北4F</button>
+            <button class="button" onclick="showDiv(6)" id="button6">運動場</button>
+        </div>
+    </div>
 </div>
 
-<div id="content1" class="content" style="display: block;"><p class="map-text">ここにマップを表示</p></div>
-<div id="content2" class="content">コンテンツ2</div>
-<div id="content3" class="content">コンテンツ3</div>
-<div id="content4" class="content">コンテンツ4</div>
-<div id="content5" class="content">コンテンツ5</div>
-<div id="content6" class="content">コンテンツ6</div>
 
 <script>
     function showDiv(index) {
         // すべてのコンテンツを非表示にする
         for (var i = 1; i <= 6; i++) {
-            var content = document.getElementById('content' + i);
+            var content = document.getElementById('map-content' + i);
             content.style.display = 'none';
 
             // 全てのボタンの色をリセット
@@ -45,7 +49,7 @@
         }
 
         // クリックされたボタンに対応するコンテンツを表示する
-        var selectedContent = document.getElementById('content' + index);
+        var selectedContent = document.getElementById('map-content' + index);
         selectedContent.style.display = 'block';
 
         // 選択されたボタンに色を付ける
