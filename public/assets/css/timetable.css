@@ -41,20 +41,22 @@
 .time-event {
   /* border : 1px solid rgb(144,144,144); */
   border-radius: 20px ;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bolder;
   text-align: center;
   background-color: rgba(0,255,255,0.765);
   position: relative;
+  width :13%
 }
 .time-event-left {
   border: 1px  solid rgb(144,144,144);
   border-radius: 20px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bolder;
   text-align: center;
   background-color: rgba(0,255,255,0.765);
   position: relative;
+  width: 13%;
 }
 .time-title{
   text-align: center;
@@ -62,10 +64,7 @@
   font-size: 20px;
   height:60px;
   width:150px;
-  /* border-top : 1px solid whitesmoke;  */
-  border-bottom: 1px solid rgb(144,144,144);
   border-radius: 30px;
-  /* font-family:"MS Pゴシック", sans-serif; */
   font-weight: bolder;
   font-family: "makinas-4-square";
   z-index: 2;
@@ -88,14 +87,14 @@
   border: 1px solid whitesmoke;
   border-right: rgb(144,144,144);
   height:60px;
-  width: 50px;
+  width: 4.5%;
 
 }
 .time-nonr{
   background-color: whitesmoke;
   border: 1px solid whitesmoke;
   height:60px;
-  width: 50px;
+  width: 4.5%;
 }
 .time-starttime{
   text-align: left;
@@ -172,30 +171,30 @@ td{
 .twet{
   position: absolute;
   left: 0;
-  top: 1133px;
+  top: 1131px;
 }
 .thio{
   position: absolute;
   left: 0;
-  top: 1283px;
+  top: 1281px;
 }
 .thit{
   position: absolute;
   left: 0;
-  top: 1433px;
+  top: 1431px;
 }
 .fouo{
   position: absolute;
   left: 0;
-  top: 1583px;
+  top: 1581px;
 }
 .fout{
   position: absolute;
   left: 0;
-  top: 1733px;
+  top: 1731px;
 }
 .fivo{
   position: absolute;
   left: 0;
-  top: 1886px;
+  top: 1881px;
 }
