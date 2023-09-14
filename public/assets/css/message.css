@@ -1,8 +1,23 @@
 .message-main{
-    width:88%;
+    width:95%;
     margin:0 auto;
 }
 .title-img{
     height: 280px;
     width: 560px;
+}
+
+.message{
+    font-family: makinas-4-square;
+    color: white;
+}
+
+.message-h1{
+    font-family: makinas-4-square;
+    color: white;
+}
+
+.message-p {
+    font-family: makinas-4-square;
+    color: white;
 }
