@@ -13,7 +13,6 @@
   font-family: "makinas-4-square";
 }
 .time-timel {
-  border-top: 1px solid #111111;
   border-left: 1px solid whitesmoke;
   width: 25px;
   font-size:15px;
@@ -27,7 +26,6 @@
   font-family: "makinas-4-square";
 }
 .time-timer {
-  border-top: 1px solid #111111;
   border-right: 1px solid whitesmoke;
   width: 25px;
   font-size:15px;
@@ -92,7 +90,6 @@
   border-right: rgb(144,144,144);
   height:60px;
   width: 50px;
-  border-bottom: 1px solid #111111;
 
 }
 .time-nonr{
@@ -100,7 +97,6 @@
   border: 1px solid whitesmoke;
   height:60px;
   width: 50px;
-  border-bottom: 1px solid #111111;
 }
 .time-starttime{
   text-align: left;
@@ -130,4 +126,77 @@ td{
   right: 0;
   padding: 5px;
   font-size: 7px;
+}
+.line{
+  width: 100%;
+  border-top: 1px solid #191919;
+  text-align: center;
+  font-family: "makinas-4-square";
+  font-weight: bolder;
+  z-index: 0;
+}
+.nineo{
+  position: absolute;
+  left: 0;
+  top: 82px;
+}
+.ninet{
+  position: absolute;
+  left: 0;
+  top: 232px;
+}
+.teno{
+  position: absolute;
+  left: 0;
+  top: 380px;
+}
+.tent{
+  position: absolute;
+  left: 0;
+  top: 530px;
+}
+.eleo{
+  position: absolute;
+  left: 0;
+  top: 681px;
+}
+.elet{
+  position: absolute;
+  left: 0;
+  top: 831px;
+}
+.tweo{
+  position: absolute;
+  left: 0;
+  top: 981px;
+}
+.twet{
+  position: absolute;
+  left: 0;
+  top: 1133px;
+}
+.thio{
+  position: absolute;
+  left: 0;
+  top: 1283px;
+}
+.thit{
+  position: absolute;
+  left: 0;
+  top: 1433px;
+}
+.fouo{
+  position: absolute;
+  left: 0;
+  top: 1586px;
+}
+.fout{
+  position: absolute;
+  left: 0;
+  top: 1742px;
+}
+.fivo{
+  position: absolute;
+  left: 0;
+  top: 1895px;
 }
