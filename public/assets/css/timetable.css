@@ -41,20 +41,22 @@
 .time-event {
   /* border : 1px solid rgb(144,144,144); */
   border-radius: 20px ;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bolder;
   text-align: center;
   background-color: rgba(0,255,255,0.765);
   position: relative;
+  width :13%
 }
 .time-event-left {
   border: 1px  solid rgb(144,144,144);
   border-radius: 20px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bolder;
   text-align: center;
   background-color: rgba(0,255,255,0.765);
   position: relative;
+  width: 13%;
 }
 .time-title{
   text-align: center;
@@ -62,12 +64,8 @@
   font-size: 20px;
   height:60px;
   width:150px;
-  /* border-top : 1px solid whitesmoke;  */
-  border-bottom: 1px solid rgb(144,144,144);
   border-radius: 30px;
-  /* font-family:"MS Pゴシック", sans-serif; */
   font-weight: bolder;
-  box-shadow: 0px 0px 2px 2px rgb(144,144,144);
   font-family: "makinas-4-square";
   z-index: 2;
 
@@ -89,14 +87,14 @@
   border: 1px solid whitesmoke;
   border-right: rgb(144,144,144);
   height:60px;
-  width: 50px;
+  width: 4.5%;
 
 }
 .time-nonr{
   background-color: whitesmoke;
   border: 1px solid whitesmoke;
   height:60px;
-  width: 50px;
+  width: 4.5%;
 }
 .time-starttime{
   text-align: left;
@@ -104,7 +102,7 @@
   font-size: 7px;
 }
 .time-table td{
-  height: 25px;
+  height: 30px;
   border: 1px  solid rgb(144,144,144);
 }
 .time-bot{
@@ -138,65 +136,65 @@ td{
 .nineo{
   position: absolute;
   left: 0;
-  top: 82px;
+  top: 81px;
 }
 .ninet{
   position: absolute;
   left: 0;
-  top: 232px;
+  top: 261px;
 }
 .teno{
   position: absolute;
   left: 0;
-  top: 380px;
+  top: 441px;
 }
 .tent{
   position: absolute;
   left: 0;
-  top: 530px;
+  top: 621px;
 }
 .eleo{
   position: absolute;
   left: 0;
-  top: 681px;
+  top: 801px;
 }
 .elet{
   position: absolute;
   left: 0;
-  top: 831px;
+  top: 981px;
 }
 .tweo{
   position: absolute;
   left: 0;
-  top: 981px;
+  top: 1161px;
 }
 .twet{
   position: absolute;
   left: 0;
-  top: 1133px;
+  top: 1341px;
 }
 .thio{
   position: absolute;
   left: 0;
-  top: 1283px;
+  top: 1521px;
 }
 .thit{
   position: absolute;
   left: 0;
-  top: 1433px;
+  top: 1701px;
 }
 .fouo{
   position: absolute;
   left: 0;
-  top: 1586px;
+  top: 1881px;
 }
 .fout{
   position: absolute;
   left: 0;
-  top: 1742px;
+  top: 2061px;
 }
 .fivo{
   position: absolute;
   left: 0;
-  top: 1895px;
+  top: 2241px;
 }
