@@ -102,7 +102,7 @@
   font-size: 7px;
 }
 .time-table td{
-  height: 25px;
+  height: 30px;
   border: 1px  solid rgb(144,144,144);
 }
 .time-bot{
@@ -141,60 +141,60 @@ td{
 .ninet{
   position: absolute;
   left: 0;
-  top: 231px;
+  top: 261px;
 }
 .teno{
   position: absolute;
   left: 0;
-  top: 381px;
+  top: 441px;
 }
 .tent{
   position: absolute;
   left: 0;
-  top: 530px;
+  top: 621px;
 }
 .eleo{
   position: absolute;
   left: 0;
-  top: 681px;
+  top: 801px;
 }
 .elet{
   position: absolute;
   left: 0;
-  top: 831px;
+  top: 981px;
 }
 .tweo{
   position: absolute;
   left: 0;
-  top: 981px;
+  top: 1161px;
 }
 .twet{
   position: absolute;
   left: 0;
-  top: 1131px;
+  top: 1341px;
 }
 .thio{
   position: absolute;
   left: 0;
-  top: 1281px;
+  top: 1521px;
 }
 .thit{
   position: absolute;
   left: 0;
-  top: 1431px;
+  top: 1701px;
 }
 .fouo{
   position: absolute;
   left: 0;
-  top: 1581px;
+  top: 1881px;
 }
 .fout{
   position: absolute;
   left: 0;
-  top: 1731px;
+  top: 2061px;
 }
 .fivo{
   position: absolute;
   left: 0;
-  top: 1881px;
+  top: 2241px;
 }
