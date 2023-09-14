@@ -3,6 +3,9 @@
   width:95%;
   margin:0 auto;
 }
+.access-text{
+  padding: 30px 0;
+}
 .title-img{
   height: 280px;
   width: 560px;
@@ -47,6 +50,6 @@
     padding-left: 10px;
  }
   .accessmain{
-   width:60%;
+   width:70%;
    margin:0 auto;
   }

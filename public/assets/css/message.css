@@ -8,16 +8,17 @@
 }
 
 .message{
-    font-family: makinas-4-square;
+    font-family: "makinas-4-square";
     color: white;
+    text-align: center;
 }
 
 .message-h1{
-    font-family: makinas-4-square;
+    font-family: "makinas-4-square";
     color: white;
 }
 
 .message-p {
-    font-family: makinas-4-square;
+    font-family: "makinas-4-square";
     color: white;
 }
