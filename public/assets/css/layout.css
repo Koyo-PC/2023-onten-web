@@ -1,9 +1,9 @@
 .yield-main{
-    background-image:url("/assets/images/background_imagesample/sample12.webp");
+    background-image:url("/assets/images/background_imagesample/sample18.webp");
   background-repeat:
       repeat;
   background-position:50% 50%;
-  background-size: contain ;
+  background-size: contain;
   background-attachment: fixed;
   margin-top:50px;
   
@@ -48,6 +48,7 @@
 /* 読み込み完了後に「loaded」を付与する */
 #loader.loaded {
   animation: fadeOut 3s forwards;
+
 }
 .loadimg{
   max-width: 100rem ;
