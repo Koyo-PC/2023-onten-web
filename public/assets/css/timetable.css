@@ -1,17 +1,16 @@
-.time-body{
-  background-color: #191919;
+.time-first{
+  width: 78%;
+  margin: auto;
+  position: relative;
 }
 .time-table {
-  width: 78%;
   box-shadow: 0px 0px 20px 20px #f0f0f0;
-  margin: auto;
   /* table-layout: fixed; */
   border-collapse: collapse;
   word-wrap: break-word;
   background-color: rgb(144,144,144);
   font-family: "square", sans-serif;
   font-family: "makinas-4-square";
-  z-index:10;
 }
 .time-timel {
   border-top: 1px solid #111111;
@@ -44,10 +43,20 @@
 .time-event {
   /* border : 1px solid rgb(144,144,144); */
   border-radius: 20px ;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: bolder;
   text-align: center;
   background-color: rgba(0,255,255,0.765);
+  position: relative;
+}
+.time-event-left {
+  border: 1px  solid rgb(144,144,144);
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgba(0,255,255,0.765);
+  position: relative;
 }
 .time-title{
   text-align: center;
@@ -60,13 +69,14 @@
   border-radius: 30px;
   /* font-family:"MS Pゴシック", sans-serif; */
   font-weight: bolder;
-  box-shadow: 0px 0px 5px 5px rgb(144,144,144);
+  box-shadow: 0px 0px 2px 2px rgb(144,144,144);
   font-family: "makinas-4-square";
+  z-index: 2;
 
 }
 .positionsticky{
   position: sticky;
-  top: 50px;
+  top: 0px;
 }
 .time-midasi{
   text-align: center;
@@ -92,14 +102,6 @@
   width: 50px;
   border-bottom: 1px solid #111111;
 }
-.time-event-left {
-  border: 1px  solid rgb(144,144,144);
-  border-radius: 20px;
-  font-size: 16px;
-  font-weight: bolder;
-  text-align: center;
-  background-color: rgba(0,255,255,0.765);
-}
 .time-starttime{
   text-align: left;
   vertical-align: top;
@@ -114,4 +116,18 @@
 }
 td{
   font-family: "makinas-4-square";
+}
+.time-start{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  font-size: 7px;
+}
+.time-end{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 7px;
 }
