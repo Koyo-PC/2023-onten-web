@@ -32,8 +32,9 @@
  }
  .access-text{
    color: white;
-   font-family: sans-serif;
+   font-family: "Noto Sans JP", sans-serif;
     font-size: 1em;
+    padding-left: 10px;
  }
   .accessmain{
    width:60%;
