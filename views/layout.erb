@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="ja">
-<div id="loader">
-    <div class="spinner">
-      <div class="cube1"><img src="/assets/images/logo.png" class="loadimg"></div>
-      <div class="cube2"></div>
-    </div>
-</div>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="/assets/css/access.css">
-  <link rel="stylesheet" href="/assets/css/circle.css">
-  <link rel="stylesheet" href="/assets/css/message.css">
-
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="/assets/css/reset.css">
-  <link rel="stylesheet" href="/assets/css/layout.css">
-
-  <link rel="fonr" href="/assets/fonts/def/fgm.ttf">
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
-  <script defer src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <title>NewERA- 音展2023 | トップページ</title>
-</head>
-
-<body>
-
-    <nav class="layout-nav">
-        <ul class="layout-ul">
-          <li><a href="/">Home</a></li>
-          <li><a href="/message">Message</a></li>
-          <li><a href="/access">Access</a></li>
-          <li><a href="/map">Map</a></li>
-          <li><a href="/timetable">Timetable</a></li>
-          <li><a href="/circle">Circles</a></li>
-          <li><a href="/member">Members</a></li>
-        </ul>
-    </nav>
-    
-    
-      <div class="yield-main">
-        <%= yield %>
+  <div id="loader">
+      <div class="spinner">
+        <div class="cube1"><img src="/assets/images/logo.png" class="loadimg"></div>
+        <div class="cube2"></div>
       </div>
-      <div class="footer">
+  </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/assets/css/access.css">
+    <link rel="stylesheet" href="/assets/css/circle.css">
+    <link rel="stylesheet" href="/assets/css/message.css">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/layout.css">
+
+    <link rel="fonr" href="/assets/fonts/def/fgm.ttf">
+    <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <title>NewERA- 音展2023 | トップページ</title>
+  </head>
+
+  <body>
+
+      <nav class="layout-nav">
+          <ul class="layout-ul">
+            <li><a href="/">Home</a></li>
+            <li><a href="/message">Message</a></li>
+            <li><a href="/access">Access</a></li>
+            <li><a href="/map">Map</a></li>
+            <li><a href="/timetable">Timetable</a></li>
+            <li><a href="/circle">Circles</a></li>
+            <li><a href="/member">Members</a></li>
+          </ul>
+      </nav>
       
+      
+        <div class="yield-main">
+          <%= yield %>
+        </div>
+    
+  </body>
+  <footer style="background-color: rgb(24, 22, 22);" >
+      <div class="footer_logo_div">
+        <img src="footer_logo.png" alt="" class="footer_logo">
       </div>
-</body>
+      <div class="footer_icon_div">
+        <div class="icon">
+          <i class="fab fa-twitter fa-4x"></i>
+        </div>
+        <div class="icon">
+          <i class="fab fa-instagram fa-4x" ></i>
+        </div>
+      </div>
+    </footer>    
 </html>
 
 <script>

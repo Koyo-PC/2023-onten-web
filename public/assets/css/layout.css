@@ -1,11 +1,12 @@
 .yield-main{
-    background-image:url("/assets/images/background.webp");
+    background-image:url("/assets/images/background_imagesample/sample12.webp");
   background-repeat:
       repeat;
   background-position:50% 50%;
-  background-size:1464px 728px;
+  background-size: contain ;
   background-attachment: fixed;
   margin-top:50px;
+  
 }
 
 @font-face {
@@ -38,7 +39,7 @@
 #loader {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(24, 22, 22);
   top:0;
   z-index:100000;
@@ -54,3 +55,34 @@
   font-family: "makinas-4-square", sans-serif;
 font-weight: 400;
 font-style: normal;
+
+footer{
+  height: 15%;
+}
+
+.footer_logo{
+  width: 33%;
+  
+
+  
+}
+
+.footer_logo_div{
+  width: 100%;
+  text-align: center;
+}
+
+.footer_icon_div{
+  width: 100%;
+  text-align: center;
+}
+
+.icon{
+  float: left;
+  margin-left: 32%;
+}
+
+.footer_icon_div{
+  width: 100%;
+  text-align: center;
+}
