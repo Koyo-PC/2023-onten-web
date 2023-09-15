@@ -27,11 +27,10 @@ function countdown(){
     else sec=calsseconds;
     if(calsminutes<10)min='0'+calsminutes;
     else min=calsminutes;
-    hour=calsdays*24+calshours;
+    if(calsdays*24+calshours<10)hour='0'+calshours;
+    else hour=calsdays*24+calshours;
   if(distance >= 0){
-      if(hour>0)document.getElementById("countdown").innerText=hour+":"+min+ ":" + sec ;
-      else if(calsminutes>0)document.getElementById("countdown").innerText=calsminutes + ":" + sec ;
-      else document.getElementById("countdown").innerText=calsseconds + "秒";
+    document.getElementById("countdown").innerText=hour+":"+min+ ":" + sec ;
   }
   else if(span >= 0){
     document.getElementById("countdown").innerText="音展当日！！";
