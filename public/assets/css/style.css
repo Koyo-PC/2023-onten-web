@@ -100,7 +100,7 @@ html,body{
   background-image: url(/assets/images/realtimebackground.png);
   background-size: cover;
   position: relative;
-  padding-right:100px;
+  left: -50px;
 }
 #countdown{
   font-family:'mega', sans-serif;
@@ -140,7 +140,7 @@ html,body{
 }
 .note h1{
   text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-family: "makinas-4-square";
 }
 .index-main{
