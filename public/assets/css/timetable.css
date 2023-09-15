@@ -1,20 +1,19 @@
 .time-first{
-  width: 1100px;
+  width: 80%;
+  height: 500px;
   margin: auto;
   position: relative;
-}
-@media screen and (max-width: 1300px) {
-  .time-first{
-    margin-left: 100px;
-  }
+  overflow-x: scroll;
+  overflow: scroll;
 }
 @media screen and (max-width: 600px) {
   .time-first{
-    margin-left: 20px;
+    width: 90%;
+    margin: auto;
   }
 }
 .time-table {
-  width: 100%;
+  width: 1101px;
   /* box-shadow: 0px 0px 20px 20px whitesmoke; */
   border-radius: 40px;
   /* table-layout: fixed; */
@@ -24,7 +23,7 @@
   font-family: "makinas-4-square";
 }
 .time-timel {
-  width: 25px;
+  width: 50px;
   font-size:15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color:whitesmoke;
@@ -35,7 +34,7 @@
   font-family: "makinas-4-square";
 }
 .time-timer {
-  width: 25px;
+  width: 50px;
   font-size:15px;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   color: whitesmoke;
@@ -54,7 +53,7 @@
   background: linear-gradient(45deg, rgba(10,60,180,0.75) 50%,rgba(10,60,180,0.05) );
   border: 1px solid rgba(0, 0, 0, 0);
   position: relative;
-  width :13%;
+  width :143px;
   color: whitesmoke;
 }
 .time-event-left {
@@ -64,14 +63,14 @@
   text-align: center;
   background: linear-gradient(45deg, rgba(10,60,180,0.75) 50%,rgba(10,60,180,0.05) );
   position: relative;
-  width: 13%;
+  width: 143px;
   color: whitesmoke;
 }
 .time-title{
   text-align: center;
   font-size: 20px;
-  height:60px;
-  width:150px;
+  height:80px;
+  width:143px;
   border-radius: 30px;
   font-weight: bolder;
   font-family: "makinas-4-square";
@@ -80,7 +79,7 @@
 }
 .positionsticky{
   position: sticky;
-  top: 50px;
+  top: 0px;
 }
 .time-midasi{
   text-align: center;
@@ -92,12 +91,12 @@
 }
 .time-nonl{
   height:60px;
-  width: 4.5%;
+  width: 50px;
 
 }
 .time-nonr{
   height:60px;
-  width: 4.5%;
+  width: 50px;
 }
 .time-table td{
   height: 30px;
@@ -123,7 +122,7 @@ td{
   font-family: "makinas-4-square";
 }
 .line{
-  width: 100%;
+  width: 1101px;
   border-top: 1px solid whitesmoke;
   color: whitesmoke;
   text-align: center;
