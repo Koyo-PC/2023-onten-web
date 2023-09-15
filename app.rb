@@ -102,3 +102,7 @@ end
 get '/seibutubu' do
   erb :seibutubu
 end
+
+get '/ryokoudoukoukai' do
+  erb :ryokoudoukoukai
+end
