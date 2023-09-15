@@ -51,23 +51,24 @@
   font-size: 12px;
   font-weight: bolder;
   text-align: center;
-  background-color: rgba(0,255,255,0.765);
+  background: linear-gradient(45deg, rgba(10,60,180,0.75) 50%,rgba(10,60,180,0.05) );
   border: 1px solid rgba(0, 0, 0, 0);
   position: relative;
-  width :13%
+  width :13%;
+  color: whitesmoke;
 }
 .time-event-left {
   border-radius: 20px;
   font-size: 12px;
   font-weight: bolder;
   text-align: center;
-  background-color: rgba(0,255,255,0.765);
+  background: linear-gradient(45deg, rgba(10,60,180,0.75) 50%,rgba(10,60,180,0.05) );
   position: relative;
   width: 13%;
+  color: whitesmoke;
 }
 .time-title{
   text-align: center;
-  background-color:whitesmoke;
   font-size: 20px;
   height:60px;
   width:150px;
@@ -75,7 +76,7 @@
   font-weight: bolder;
   font-family: "makinas-4-square";
   z-index: 2;
-
+  color: whitesmoke;
 }
 .positionsticky{
   position: sticky;
