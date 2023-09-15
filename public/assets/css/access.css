@@ -49,7 +49,18 @@
     font-size: 1em;
     padding-left: 10px;
  }
+ .access-text li{
+  font-family: "makinas-4-square";
+ }
   .accessmain{
    width:70%;
    margin:0 auto;
+  }
+  .access-middle{
+    width:800px;
+    margin:0 auto;
+  }
+  .googlemap{
+    margin:0 auto;
+    width:800px;
   }

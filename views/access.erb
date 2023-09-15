@@ -1,5 +1,14 @@
 <script src="/assets/javascript/access.js"></script>
-
+<script>
+      (function(d) {
+        var config = {
+          kitId: 'bsw3okh',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
   <div class="title-main">
     <img src="/assets/images/titles/access.webp" class="title-img">
     </div>
@@ -8,6 +17,7 @@
       <li>阪急/阪神バス「柏堂町」駅下車、南へ徒歩約5分</li>
       <li>阪急バス「苦楽園」駅下車、徒歩約15分</li>
   </ul>
+  <div class="access-middle">
   <ul class="access-text">
       <li>校内への車の乗り入れは全面禁止にしております</li>
       <li>学校周辺はすべて駐車禁止ですので、公共の交通機関をご利用ください </li>
@@ -16,6 +26,7 @@
   <div class="googlemap">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.828649975743!2d135.31588377649183!3d34.75990897289869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000f36ab1b8e56b%3A0x41b0ac08629de653!2z55Sy6Zm95a2m6Zmi6auY562J5a2m5qCh!5e0!3m2!1sja!2sjp!4v1694713840280!5m2!1sja!2sjp" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
     </iframe>
+  </div>
   </div>
 
 <%# <div class="buttons">

@@ -77,7 +77,6 @@ font-style: normal;
 .footer-logo{
   display: block;
   margin: 0 auto;
-  filter: invert(100%);
   width: 40%;
   height: 170px;
   object-fit: cover;
