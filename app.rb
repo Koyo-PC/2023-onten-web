@@ -110,3 +110,47 @@ end
 get '/koukounyuusi' do
   erb :koukounyuusi
 end
+
+get '/ennniti' do
+  erb :ennniti
+end
+
+get '/yatai' do
+  erb :yatai
+end
+
+get '/unndouzyou' do
+  erb :unndouzyou
+end
+
+get '/jetto' do
+  erb :jetto
+end
+
+get '/dassyutu' do
+  erb :dassyutu
+end
+
+get '/kounainazotoki' do
+  erb :kounainazotoki
+end
+
+get '/kounaisousyoku' do
+  erb :kounaisousyoku
+end
+
+get '/monyumennto' do
+  erb :monyumennto
+end
+
+get '/annnai' do
+  erb :annnai
+end
+
+get '/tyuuou' do
+  erb :tyuuou
+end
+
+get '/guri' do
+  erb :guri
+end
