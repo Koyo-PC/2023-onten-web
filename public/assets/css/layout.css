@@ -8,8 +8,12 @@
 }
 
 .title-img{
-  height: 280px;
+  height: 200px;
   width: 560px;
+  object-fit: cover;
+  object-position: 50% 0%;
+  display: block;
+  margin: 0 auto;
 }
 .title-main{
   width:95%;
