@@ -1,12 +1,10 @@
 .yield-main{
-    background-image:url("/assets/images/background_imagesample/sample18.webp");
-  background-repeat:
-      repeat;
+  background-image:url("/assets/images/background_imagesample/sample18.webp");
+  background-repeat:repeat;
   background-position:50% 50%;
   background-size: contain;
   background-attachment: fixed;
   margin-top:50px;
-  
 }
 
 .title-img{
@@ -65,33 +63,66 @@
 font-weight: 400;
 font-style: normal;
 
+.footer{
+  width: 100%;
+  height: 120px; 
+  padding: 50px 0;
+  background-color: gray;
+  z-index:100;
+}
+.footer-logo{
+  display: block;
+  margin: 0 auto;
+  filter: invert(100%);
+  width: 40%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.footer-logo-div{
+  width: 100%;
+  text-align: center;
+}
+
+.footer-icon{
+  display: flex;
+  justify-content: center;
+}
+.snsicon{
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+  height: calc(100% - 14px);
+  padding: 5px;
+}
+
 footer{
-  height: 15%;
+  position: relative;
+    display: block;
+    width: 100%;
+    padding: 50px;
+    background-color: #303030;
+    color: #e2e2e2;
+    margin-top:50px;
 }
-
-.footer_logo{
-  width: 33%;
-  
-
-  
-}
-
-.footer_logo_div{
-  width: 100%;
+#footer-title{
+  margin: 15px;
   text-align: center;
 }
-
-.footer_icon_div{
-  width: 100%;
-  text-align: center;
+.sns-link-text{
+  font-size: 12px;
 }
-
 .icon{
-  float: left;
-  margin-left: 32%;
+  width: 120px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: inherit;
+    text-decoration: none;
 }
-
-.footer_icon_div{
-  width: 100%;
+.copy-right{
+  margin: 30px;
   text-align: center;
+  font-size: 12px;
 }
