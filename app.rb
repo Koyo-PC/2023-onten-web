@@ -151,6 +151,6 @@ get '/tyuuou' do
   erb :tyuuou
 end
 
-get '/guri-' do
-  erb :guri-
+get '/guri' do
+  erb :guri
 end
