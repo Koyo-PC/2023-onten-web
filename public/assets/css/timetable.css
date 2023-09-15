@@ -8,6 +8,11 @@
     margin-left: 100px;
   }
 }
+@media screen and (max-width: 600px) {
+  .time-first{
+    margin-left: 20px;
+  }
+}
 .time-table {
   width: 100%;
   /* box-shadow: 0px 0px 20px 20px whitesmoke; */
@@ -93,11 +98,6 @@
   height:60px;
   width: 4.5%;
 }
-.time-starttime{
-  text-align: left;
-  vertical-align: top;
-  font-size: 7px;
-}
 .time-table td{
   height: 30px;
 }
@@ -122,9 +122,11 @@ td{
 .line{
   width: 100%;
   border-top: 1px solid whitesmoke;
+  color: whitesmoke;
   text-align: center;
   font-family: "makinas-4-square";
   font-weight: bolder;
+  font-size: 15px;
   z-index: 0;
 }
 .nineo{
