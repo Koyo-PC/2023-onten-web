@@ -1,15 +1,14 @@
-.container{
+.circle-list{
     display: flex;
+    justify-content: space-between;
     width: 80%;
     /* float: left; */
-    flex-wrap: wrap;
-    margin: 0 10%;
+    flex-flow: row wrap;
 }
-.circle-name{
-    margin: 50px auto;
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
+.each-circle{
+    border: 1px #999 solid;
+    padding: 10px;
+    margin-bottom: 30px;
     font-family: "makinas-4-square";
 }
 .circle-main{
