@@ -106,3 +106,7 @@ end
 get '/ryokoudoukoukai' do
   erb :ryokoudoukoukai
 end
+
+get '/koukounyuusi' do
+  erb :koukounyuusi
+end
