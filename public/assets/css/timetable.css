@@ -6,11 +6,16 @@
   overflow-x: scroll;
   overflow: scroll;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .time-first{
     width: 90%;
     margin: auto;
   }
+  .time-event{width: 100px;}
+  .time-event-left{width: 100px;}
+  .time-title{width: 100px;}
+  .time-table{width:800px;}
+  .line{width: 800px;}
 }
 .time-table {
   width: 1101px;
