@@ -154,3 +154,7 @@ end
 get '/guri' do
   erb :guri
 end
+
+get '/ongakukai' do
+  erb :ongakukai
+end
