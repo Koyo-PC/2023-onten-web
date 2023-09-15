@@ -100,7 +100,7 @@ html,body{
   background-image: url(/assets/images/realtimebackground.png);
   background-size: cover;
   position: relative;
-  left: -50px;
+  left: -70px;
 }
 #countdown{
   font-family:'mega', sans-serif;
