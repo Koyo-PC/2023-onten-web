@@ -9,6 +9,14 @@
   
 }
 
+.title-img{
+  height: 280px;
+  width: 560px;
+}
+.title-main{
+  width:95%;
+  margin:0 auto;
+}
 @font-face {
     font-family: "fgm";
     src: url("/assets/fonts/def/fgm.ttf") format("truetype");
