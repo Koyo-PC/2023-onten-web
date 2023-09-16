@@ -60,9 +60,29 @@
     font-weight: 700;
     color: #fff;
     display: inline-block;
-    background: #da3e50;
+    /* background: #da3e50; */
 }
-
+.green span{
+    background:#69a211;
+}
+.green{
+    border: #69a211 solid;
+    border-width: 0 0 1px 45px;
+}
+.blue span{
+    background:#2991bf;
+}
+.blue{
+    border: #2991bf solid;
+    border-width: 0 0 1px 45px;
+}
+.yellow span{
+    background:#ec9112;
+}
+.yellow{
+    border: #ec9112 solid;
+    border-width: 0 0 1px 45px;
+}
 .meta-button{
     display: block;
     font-size: 1.2rem;
