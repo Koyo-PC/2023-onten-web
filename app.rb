@@ -22,7 +22,15 @@ end
 get '/timetable' do
   erb :comingsoon
 end
-
+get '/pretimetable' do
+  erb :timetable
+end
+get '/precircle' do
+  erb :circle
+end
+get '/premap' do
+  erb :map
+end
 get '/member' do
   erb :member
 end

@@ -13,13 +13,12 @@
   object-fit: cover;
   object-position: 50% 0%;
   display: block;
-  margin-left:20%;
 }
 @media screen and (max-width: 600px) {
   .title-img{width: 300px;}
 }
 .title-main{
-  width:95%;
+  width:70%;
   margin:0 auto;
 }
 @font-face {
@@ -197,4 +196,22 @@ nav li a{
   color:white;
   font-family: "makinas-4-square";
   padding:5rem 0;
+}
+@media screen and (min-width: 481px){
+    
+}
+@media screen and (max-width: 480px){
+   .layout-nav{
+       display:none;
+   }
+   .yield-main{
+       margin-top: 0px;
+   }
+   .toptitle p {
+       line-height: 5vh;
+       font-family: "makinas-4-square";
+       font-size: 25px;
+       margin-top: 4px;
+       letter-spacing: 0.1em;
+   }
 }
