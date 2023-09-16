@@ -16,11 +16,11 @@ get '/access' do
 end
 
 get '/map' do
-  erb :map
+  erb :comingsoon
 end
 
 get '/timetable' do
-  erb :timetable
+  erb :cominsoon
 end
 
 get '/member' do
@@ -28,7 +28,7 @@ get '/member' do
 end
 
 get '/circle' do
-  erb :circle
+  erb :comingsoon
 end
 
 get '/buturibu' do
