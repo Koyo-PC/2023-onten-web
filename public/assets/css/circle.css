@@ -13,6 +13,14 @@
     font-family: "makinas-4-square";
     width: 100%;
 }
+.circle-name{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px auto;
+    font-family: "makinas-4-square";
+}
 .each-circle:hover{
     opacity:0.5;
 }
@@ -22,10 +30,10 @@
 }
 .circle-main{
     position: relative;
-    width:65%;
+    padding: 50px 10%;
+    font-weight: 400;
+    overflow-x: hidden;
     font-family: "makinas-4-square";
-    margin:0 auto;
-    margin-top:60px;
 }
 .circle-img{
     max-width: 126px;
@@ -65,28 +73,32 @@
     padding: 10px;
     font-family: "makinas-4-square";
 }
-.circle-location .meta-loc{
+.circles-location .meta-loc{
     display: block;
     margin-right: 40px;
     font-size: 1.5rem;
     font-family: "makinas-4-square";
+    color: #fff;
 }
-.circle-location .meta-title{
+.circles-location .meta-title{
     display: block;
     margin-right: 10px;
     font-size: 1.2rem;
     font-family: "makinas-4-square";
+    color: #fff;
 }
-.circle-location{
+.circles-location{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "makinas-4-square";
+    color: #fff;
 }
 .circle-text{
     margin: 10px 0;
     font-family: "makinas-4-square";
     margin:0 auto;
+    color: #fff;
 }
 .circle-bot{
     display: -webkit-box;
