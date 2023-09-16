@@ -20,7 +20,7 @@ get '/map' do
 end
 
 get '/timetable' do
-  erb :cominsoon
+  erb :comingsoon
 end
 
 get '/member' do

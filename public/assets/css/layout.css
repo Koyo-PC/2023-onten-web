@@ -13,7 +13,7 @@
   object-fit: cover;
   object-position: 50% 0%;
   display: block;
-  margin: 0 auto;
+  margin-left:20%;
 }
 @media screen and (max-width: 600px) {
   .title-img{width: 300px;}
