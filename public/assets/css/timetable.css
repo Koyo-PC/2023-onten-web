@@ -7,7 +7,7 @@
   overflow: scroll;
 }
 .time-table {
-  width: 1101px;
+  width: 1244px;
   /* box-shadow: 0px 0px 20px 20px whitesmoke; */
   border-radius: 40px;
   /* table-layout: fixed; */
@@ -118,7 +118,7 @@ td{
   font-family: "makinas-4-square";
 }
 .line{
-  width: 1101px;
+  width: 1244px;
   border-top: 1px solid whitesmoke;
   color: whitesmoke;
   text-align: center;
@@ -194,8 +194,8 @@ td{
   }
 }
 @media screen and (max-width: 600px) {
-  .time-table{width:940px;}
-  .line{width: 940px;}
+  .time-table{width:1060px;}
+  .line{width: 1060px;}
   .time-event{width: 120px;}
   .time-event-left{width: 120px;}
   .time-title{width: 120px;}
