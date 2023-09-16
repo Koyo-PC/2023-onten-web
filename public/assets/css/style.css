@@ -163,10 +163,13 @@ html,body{
   background-image: url(/assets/images/realtimebackground.png);
   background-size: cover;
   position: relative;
-  left: -70px;
 }
 #countdown{
   font-family:'mega', sans-serif;
+}
+.count{
+  width:90%;
+  margin:0 auto;
 }
 .count-countdown{
   font-size: 90px;
