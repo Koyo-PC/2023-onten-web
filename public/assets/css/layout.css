@@ -15,6 +15,9 @@
   display: block;
   margin: 0 auto;
 }
+@media screen and (max-width: 600px) {
+  .title-img{width: 300px;}
+}
 .title-main{
   width:95%;
   margin:0 auto;
@@ -80,6 +83,7 @@ font-style: normal;
   width: 40%;
   height: 170px;
   object-fit: cover;
+  overflow-x: visible;
 }
 
 .footer-logo-div{

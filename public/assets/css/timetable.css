@@ -6,17 +6,6 @@
   overflow-x: scroll;
   overflow: scroll;
 }
-@media screen and (max-width: 1000px) {
-  .time-first{
-    width: 90%;
-    margin: auto;
-  }
-  .time-event{width: 100px;}
-  .time-event-left{width: 100px;}
-  .time-title{width: 100px;}
-  .time-table{width:800px;}
-  .line{width: 800px;}
-}
 .time-table {
   width: 1101px;
   /* box-shadow: 0px 0px 20px 20px whitesmoke; */
@@ -197,4 +186,17 @@ td{
   position: absolute;
   left: 0;
   top: 2060px;
+}
+@media screen and (max-width: 1000px) {
+  .time-first{
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .time-table{width:940px;}
+  .line{width: 940px;}
+  .time-event{width: 120px;}
+  .time-event-left{width: 120px;}
+  .time-title{width: 120px;}
 }
