@@ -158,3 +158,7 @@ end
 get '/ongakukai' do
   erb :ongakukai
 end
+
+get '/kissa' do
+  erb :kissa
+end
