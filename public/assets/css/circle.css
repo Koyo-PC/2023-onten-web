@@ -151,3 +151,12 @@
 display:block;
 width: 48%;
 }
+.tetudou-images{
+    max-width: 300px;
+    display:flex;
+}
+.tetudou-text{
+    background: linear-gradient(transparent 90%, #ebe83f 0%);
+    font-size: 30px;
+    color: #e0e0e0;
+}
