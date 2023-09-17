@@ -58,7 +58,7 @@ html,body{
   text-align: center;
   font-weight: 800;
   color: #fff;
-  width:70%;
+  width:90%;
   margin:0 auto;
   padding-top:30px;
 }
@@ -68,7 +68,7 @@ html,body{
   font-family: "makinas-4-square";
   font-size: 37px;
   margin-top: 4px;
-  letter-spacing: 0.1em
+  letter-spacing: 0.1em;
 }
 
 .school-name{
