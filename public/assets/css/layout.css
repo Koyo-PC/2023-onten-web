@@ -321,7 +321,9 @@ nav li a{
   padding:5rem 0;
 }
 @media screen and (min-width: 481px){
-    
+  nav.globalMenuSp{
+    display:none;
+  }
 }
 @media screen and (max-width: 480px){
    .layout-nav{
@@ -342,5 +344,11 @@ nav li a{
   }
   .hamburger{
     display:block;
+  }
+  .cube1{
+    margin-top:12rem;
+  }
+  #loader{
+    background-color: rgb(40, 40, 40);
   }
 }
