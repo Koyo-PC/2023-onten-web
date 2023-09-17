@@ -212,7 +212,7 @@ nav.globalMenuSp {
   color: #fff;
   background: rgba(128,128,128,0.8);
   text-align: center;
-  width: 100%;
+  width: 100vw;
   opacity: 0;
   transition: opacity .6s ease, visibility .6s ease;
   height:100vh;

@@ -216,17 +216,17 @@ html,body{
 }
 @media screen and (max-width: 480px){
   .logo{
-    height: 12rem;
-    width: 24rem;
+    height: 11rem;
+    width: 22rem;
   }
 
   .logo-gif{
-    height: 12rem;
-    width: 24rem;
+    height: 11rem;
+    width: 22rem;
   }
   .image{
-    height: 12rem;
-    width: 24rem;
+    height: 11rem;
+    width: 22rem;
   }
   #wrapper{
     height:25rem
@@ -242,9 +242,9 @@ html,body{
     font-size: 40px;
   }
   .count-div1{
-  height: 240px;
+    height: 240px;
     margin: 0 auto;
-    width: 380px;
+    max-width: 380px;
   }
   .count{
     width:100%;
