@@ -401,4 +401,15 @@ nav li a{
   font-family: "makinas-4-square";
   padding:5rem 0;
 }
+.title-img{
+  height: 130px;
+  width: 350px;
+  object-fit: cover;
+  object-position: 50% 0%;
+  display: block;
+  margin:0 auto;
+}
+.title-main{
+  width:100%;
+}
 }
