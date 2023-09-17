@@ -21,6 +21,23 @@
   </head>
 
   <body>
+  <header>
+  <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="globalMenuSp">
+          <ul>
+              <li><a href="/"><p class="lia">Home</p></a></li>
+              <li><a href="/message">Message</a></li>
+              <li><a href="access">Access</a></li>
+              <li><a href="timetable">Timetable</a></li>
+              <li><a href="circle">Circle</a></li>
+              <li><a href="member">Member</a></li>
+          </ul>
+      </nav>
+  </header>
 <div id="loader">
       <div class="spinner">
         <div class="cube1"><img src="/assets/images/logo.png" class="loadimg" ></div>
@@ -38,8 +55,9 @@
             <li><a href="/member">Members</a></li>
           </ul>
       </nav>
-      
-      <div id="humMenu">
+    <div class="main-main">
+
+    <%# <div id="humMenu">
       <input id="humCheck" type="checkbox">
       <label id="humOpen" for="humCheck"><img src="/assets/images/hannbaga.png" alt="メニュー" width="100" height="100"></label>
       <label id="humClose" for="humCheck"></label>
@@ -54,9 +72,7 @@
           <li class="hannba-li"><a href="/member" class="hannba-a">Members</a></li>
         </ul>
       </nav>
-    </div>
-
-    
+    </div> %>
         <div class="yield-main">
           <%= yield %>
         <footer>
@@ -75,9 +91,8 @@
             </div>
         </footer>  
         </div>
+        </div>
       </body>
-      
-    </div>
 </html>
 
 <script>
