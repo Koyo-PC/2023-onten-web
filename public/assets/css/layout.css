@@ -370,18 +370,7 @@ nav li a{
     text-align: center;
     font-size: 12px;
   }
-  .count-countdown {
-    font-size: 40px;
-    color: #05c8e6;
-    width: 100vw;
-    height: 100px;
-    text-align: center;
-    position: absolute;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-shadow: #d9d9d9 0 0 10px;
-  }
+  
   .lia{
     margin-top:100px;
   }

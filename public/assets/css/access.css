@@ -67,7 +67,7 @@
   }
   @media screen and (max-width: 480px){
   .inframe{
-    width:350px;
+    width:330px;
     height:250px;
     display:block;
   }
@@ -75,6 +75,14 @@
     margin-left:15px;
   }
   .access-text li{
-    width:100vw;
+    width:100%;
+  }
+  .googlemap{
+    /* margin:0 auto; */
+    width: 330px;
+  }
+  .access-middle{
+    width:90%;
+    margin:0 auto;
   }
   }

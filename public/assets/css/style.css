@@ -171,19 +171,7 @@ html,body{
   width:90%;
   margin:0 auto;
 }
-.count-countdown{
-  font-size: 90px;
-  color: #05c8e6;
-  width: 800px;
-  height: 100px;
-  text-align: center;
-  position: absolute;
-  top: 46%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  text-shadow: #d9d9d9 0 0 10px;
-  /* padding: 2px auto; */
-}
+
 
 /* ここまで */
 
@@ -213,6 +201,21 @@ html,body{
 .index-main{
   width:70%;
   margin:0 auto;
+}
+@media screen and (min-width: 481px){
+  .count-countdown{
+    font-size: 90px;
+    color: #05c8e6;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: #d9d9d9 0 0 10px;
+    /* padding: 2px auto; */
+  }
 }
 @media screen and (max-width: 480px){
   .logo{
@@ -256,9 +259,12 @@ html,body{
     height: 100px;
     text-align: center;
     position: absolute;
-    top: 53%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-shadow: #d9d9d9 0 0 10px;
+}
+#countdown{
+  font-size: 34px;
 }
 }
