@@ -412,4 +412,7 @@ nav li a{
 .title-main{
   width:100%;
 }
+.icon{
+  z-index:100000;
+}
 }
