@@ -393,4 +393,12 @@ nav li a{
     object-fit: cover;
     overflow-x: visible;
 }
+.coming{
+  display: block;
+  font-size:2.5rem;
+  margin:0 auto;
+  color:white;
+  font-family: "makinas-4-square";
+  padding:5rem 0;
+}
 }

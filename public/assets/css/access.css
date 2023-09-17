@@ -65,3 +65,16 @@
     margin:0 auto;
     width:800px;
   }
+  @media screen and (max-width: 480px){
+  .inframe{
+    width:350px;
+    height:250px;
+    display:block;
+  }
+  .googlemap{
+    margin-left:15px;
+  }
+  .access-text li{
+    width:100vw;
+  }
+  }
