@@ -216,7 +216,6 @@ nav.globalMenuSp {
   opacity: 0;
   transition: opacity .6s ease, visibility .6s ease;
   height:100vh;
-  padding-top:100px;
 }
 
 nav.globalMenuSp ul {
@@ -350,5 +349,40 @@ nav li a{
   }
   #loader{
     background-color: rgb(40, 40, 40);
+  }
+  footer{
+    padding: 30px 50px;
+  }
+  .footer-logo {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 140px;
+    object-fit: cover;
+    overflow-x: visible;
+  }
+  #footer-title {
+    margin: 0 15px;
+    text-align: center;
+  }
+  .copy-right {
+    margin: 30 0 0 0;
+    text-align: center;
+    font-size: 12px;
+  }
+  .count-countdown {
+    font-size: 40px;
+    color: #05c8e6;
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: #d9d9d9 0 0 10px;
+  }
+  .lia{
+    padding-top:100px;
   }
 }
