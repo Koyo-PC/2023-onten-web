@@ -385,4 +385,12 @@ nav li a{
   .lia{
     padding-top:100px;
   }
+  .footer-logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    overflow-x: visible;
+}
 }
