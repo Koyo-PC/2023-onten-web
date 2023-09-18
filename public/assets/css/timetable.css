@@ -130,62 +130,62 @@ td{
 .nineo{
   position: absolute;
   left: 0;
-  top: 80px;
+  top: 60px;
 }
 .ninet{
   position: absolute;
   left: 0;
-  top: 260px;
+  top: 240px;
 }
 .teno{
   position: absolute;
   left: 0;
-  top: 440px;
+  top: 420px;
 }
 .tent{
   position: absolute;
   left: 0;
-  top: 620px;
+  top: 600px;
 }
 .eleo{
   position: absolute;
   left: 0;
-  top: 800px;
+  top: 780px;
 }
 .elet{
   position: absolute;
   left: 0;
-  top: 980px;
+  top: 960px;
 }
 .tweo{
   position: absolute;
   left: 0;
-  top: 1160px;
+  top: 1140px;
 }
 .twet{
   position: absolute;
   left: 0;
-  top: 1340px;
+  top: 1320px;
 }
 .thio{
   position: absolute;
   left: 0;
-  top: 1520px;
+  top: 1500px;
 }
 .thit{
   position: absolute;
   left: 0;
-  top: 1700px;
+  top: 1680px;
 }
 .fouo{
   position: absolute;
   left: 0;
-  top: 1880px;
+  top: 1860px;
 }
 .fout{
   position: absolute;
   left: 0;
-  top: 2060px;
+  top: 2040px;
 }
 @media screen and (max-width: 1000px) {
   .time-first{
