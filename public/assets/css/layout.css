@@ -206,7 +206,6 @@ footer{
 
 nav.globalMenuSp {
   position: fixed;
-  z-index : 10000;
   top  : 0;
   left : 0;
   color: #fff;
@@ -251,6 +250,8 @@ nav.globalMenuSp ul li a {
 
 /* このクラスを、jQueryで付与・削除する */
 nav.globalMenuSp.active {
+  
+  z-index : 10000;
   opacity: 100;
 }
 .none.active{
