@@ -36,7 +36,10 @@
     font-family: "makinas-4-square";
 }
 .circle-img{
+    min-width: 124px;;
     max-width: 126px;
+    min-height: 124px;
+    max-height:124px;
 }
 
 .circle_p_name{
@@ -143,7 +146,7 @@
 .circle-member{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10px;
     border: 1px #e0e0e0 solid;
     color: #e0e0e0;
     font-size: 1.3rem;
