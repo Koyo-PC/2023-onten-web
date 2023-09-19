@@ -170,3 +170,7 @@ end
 get '/kissa' do
   erb :kissa
 end
+
+get '/kateika' do
+  erb :kateika
+end
