@@ -96,20 +96,8 @@
     padding: 10px;
     font-family: "makinas-4-square";
 }
-.circles-location .meta-loc{
-    display: block;
-    margin-right: 40px;
-    font-size: 1.5rem;
-    font-family: "makinas-4-square";
-    color: #fff;
-}
-.circles-location .meta-title{
-    display: block;
-    margin-right: 10px;
-    font-size: 1.2rem;
-    font-family: "makinas-4-square";
-    color: #fff;
-}
+
+
 .circles-location{
     display: flex;
     justify-content: center;
@@ -183,6 +171,22 @@ width: 48%;
     font-size: 30px;
     color: #e0e0e0;
 }
+@media screen and (min-width: 481px){
+    .circles-location .meta-loc{
+        display: block;
+        margin-right: 40px;
+        font-size: 1.5rem;
+        font-family: "makinas-4-square";
+        color: #fff;
+    }
+    .circles-location .meta-title{
+        display: block;
+        margin-right: 10px;
+        font-size: 1.2rem;
+        font-family: "makinas-4-square";
+        color: #fff;
+    }
+  }
 @media screen and (max-width: 480px){
     .each-circle{
         padding: 10px;
@@ -202,5 +206,19 @@ width: 48%;
     }
     .circle_p_name{
         width:100%;
+    }
+    .meta-loc {
+        display: block;
+        font-size: 1.2rem;
+        font-family: "makinas-4-square";
+        color: #fff;
+        padding-right: 5px;
+    }
+    .meta-title {
+        display: block;
+        margin-right: 10px;
+        font-size: 1rem;
+        font-family: "makinas-4-square";
+        color: #fff;
     }
 }
