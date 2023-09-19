@@ -27,3 +27,121 @@
 .each-map{
     width:100%;
 }
+.map-scroll{
+    overflow: auto;
+    width: 100%;
+}
+.map-image{
+    position: relative;
+    vertical-align: bottom;
+    width: 100%;
+}
+.booth-container{
+    position: absolute;
+    top: 15%;
+    bottom: 15%;
+    left: 12.75%;
+    right: 12.75%;
+}
+.map-element{
+    position: absolute;
+    background-color: #000b;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    color: #e2e2e2;
+    text-align: center;
+}
+.map-link-room{
+    position: absolute;
+    padding: 0px 8px;
+    overflow: hidden;
+    font-size: 10px;
+    top: 0;
+    left: 0;
+    border-top: none;
+    border-left: none;
+    text-align: center;
+}
+.map-link-name{
+    line-height: 1.2;
+    font-size: 10px;
+    word-wrap: break-word;
+    display:flex;
+}
+.circle_p_name{
+    margin-bottom: 20px;
+    position: relative;
+    border: #da3e50 solid;
+    border-width: 0 0 0px 30px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    justify-content: space-around;
+    padding-left: 8px;
+}
+.circle_p_name span{
+    position: absolute;
+    min-width: 30px;
+    max-width: 60px;
+    left: -25px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    /* background: #da3e50; */
+}
+.green span{
+    background:#69a211;
+}
+.green{
+    border: #69a211 solid;
+    border-width: 0 0 0 30px;
+}
+.blue span{
+    background:#2991bf;
+}
+.blue{
+    border: #2991bf solid;
+    border-width: 0 0 0 30px;
+}
+.yellow span{
+    background:#ec9112;
+}
+.yellow{
+    border: #ec9112 solid;
+    border-width: 0 0 0 30px;
+}
+.red span{
+    background: #da3e50;
+}
+.red{
+    border: #da3e50 solid;
+    border-width: 0 0 0 30px;
+}
+.long-element{
+    position: absolute;
+    min-width: 30px;
+    width: 60px;
+    left: -40px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+}
+
+.circle_long_element{
+    margin-bottom: 20px;
+    position: relative;
+    border: #da3e50 solid;
+    border-width: 0 0 0px 30px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    justify-content: space-around;
+    padding-left: 8px;
+}

@@ -183,3 +183,24 @@ width: 48%;
     font-size: 30px;
     color: #e0e0e0;
 }
+@media screen and (max-width: 480px){
+    .each-circle{
+        padding: 10px;
+        margin-bottom: 30px;
+        font-family: "makinas-4-square";
+        width: 100%;
+    }
+    .circle-main{
+        padding: 50px 5%;
+    }
+    .circle-list {
+        display: block;
+    }
+    .circle-list a {
+        display: block;
+        width: 100%;
+    }
+    .circle_p_name{
+        width:100%;
+    }
+}
