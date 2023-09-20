@@ -113,6 +113,7 @@ footer{
     background-color: #303030;
     color: #e2e2e2;
     margin-top:50px;
+    z-index: 100;
 }
 #footer-title{
   margin: 15px;
