@@ -85,6 +85,13 @@
     display:flex;
     font-family: "makinas-4-square";
 }
+.ftext2{
+    /* line-height: 1.2; */
+    font-size: 1rem;
+    word-wrap: break-word;
+    display:flex;
+    font-family: "makinas-4-square";
+}
 .circle_p_name{
     margin-bottom: 20px;
     position: relative;
