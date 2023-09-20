@@ -145,8 +145,10 @@ html,body{
   background-image: url(/assets/images/date.webp);
   background-size: cover;
   width:64rem;
-  height:40rem;
+  height:25rem;
   margin:0 auto;
+  object-fit: cover;
+  background-position: 30% 50%;
 }
 .main-date{
   font-size:450px;
