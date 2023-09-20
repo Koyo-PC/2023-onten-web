@@ -23,6 +23,9 @@ get '/timetable' do
   erb :timetable
 end
 
+get '/preindex' do
+  erb :preindex
+end
 
 get '/member' do
   erb :member

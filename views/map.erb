@@ -11,6 +11,16 @@
     }
   });
 </script>
+<script>
+      (function(d) {
+        var config = {
+          kitId: 'bsw3okh',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
 <style>
         .button-container {
             display: flex;
@@ -40,6 +50,12 @@
                     <div class="map-image">
                     <img src="/assets/images/map/1.webp" class="each-map">
                     <div class="booth-container">
+                    <div class="map-felement" style="top:0;left: -18%;width: 20%; height: 20%;">
+                            <div class="map-link-room"></div>
+                            <div class="ftext">
+                                南1F
+                            </div>
+                        </div>
                         <div class="map-element" style="top:21%;left: 50%;width: 11%; height: 14%;">
                             <div class="map-link-room">中庭</div>
                             <div class="map-link-name">
@@ -90,7 +106,7 @@
                                 <div class="map-element" style="left: 35.294117647058826%;width: 11.764705882352942%; height: 16%;">
                                     <div class="map-link-room">3-C</div>
                                     <div class="map-link-name">
-                                    休憩室
+                                    <h3 class="circle_p_name red"><span>A-4</span></h3>
                                     </div>
                                 </div>
                                 <div class="map-element" style="left: 46.9%;width: 11.764705882352942%; height: 16%;">
@@ -102,7 +118,13 @@
                                 <div class="map-element" style="top: 0px;left: 70.5882%;width: 11.7647%;height: 16%;">
                                     <div class="map-link-room">3-A</div>
                                     <div class="map-link-name">
-                                    <h3 class="circle_p_name red"><span>A-4</span></h3>
+                                    休憩室
+                                    </div>
+                                </div>
+                                <div class="map-element" style="bottom: 5%;left: 70.5882%;width: 11.7647%;height: 16%;">
+                                    <div class="map-link-room"></div>
+                                    <div class="map-link-name">
+                                     保健室
                                     </div>
                                 </div>
                             </div>
@@ -113,12 +135,6 @@
                         <div class="map-image">
                             <img src="/assets/images/map/3.webp" class="each-map">
                             <div class="booth-container">
-                            <div class="map-element" style="top: 0px;left: 0%;width: 11.7647%;height: 16%;">
-                                    <div class="map-link-room">日本史教室</div>
-                                    <div class="map-link-name">
-                                    <h3 class="circle_p_name green"><span>C-3</span></h3>
-                                    </div>
-                                </div>
                                 <div class="map-element" style="top: 0px;left: 23.5294%;width: 11.7647%;height: 16%;">
                                     <div class="map-link-room">2-D</div>
                                     <div class="map-link-name">
@@ -153,19 +169,19 @@
                                 <div class="map-element" style="bottom: 5%;left: 29.4118%;width: 11.7647%;height: 16%;">
                                     <div class="map-link-room">化学講義室</div>
                                     <div class="map-link-name">
-                                    <h3 class="circle_p_name red"><span>A-8</span></h3>
+                                    <h3 class="circle_p_name red"><span>D-7</span></h3>
                                     </div>
                                 </div>
                                 <div class="map-element" style="bottom: 5%;left: 41.1765%;width: 17.6471%;height: 16%;">
                                     <div class="map-link-room">合併教室</div>
                                     <div class="map-link-name">
-                                    <h3 class="circle_p_name red"><span>A-8</span></h3>
+                                    <h3 class="circle_p_name red"><span>A-2</span></h3>
                                     </div>
                                 </div>
                                 <div class="map-element" style="bottom: 0px;left: 88.2353%;width: 11.7647%;height: 21%;">
                                     <div class="map-link-room">図書室</div>
                                     <div class="map-link-name">
-                                    <h3 class="circle_p_name red"><span>A-8</span></h3>
+                                    <h3 class="circle_p_name yellow"><span>C-6</span></h3>
                                     </div>
                                 </div>
                             </div>
@@ -193,6 +209,7 @@
                                     <div class="map-link-room">1-B</div>
                                     <div class="map-link-name">
                                     <h3 class="circle_p_name green"><span>D-6</span></h3>
+                                    <h3 class="circle_p_name yellow"><span>C-3</span></h3>
                                     </div>
                                 </div>
                                 <div class="map-element" style="top: 0px;left: 70.5882%;width: 11.7647%;height: 16%;">
@@ -217,13 +234,13 @@
                                 <div class="map-element" style="bottom: 5%;left: 41.1765%;width: 17.6471%;height: 16%;">
                                     <div class="map-link-room">世界史教室</div>
                                     <div class="map-link-name">
-                                    <h3 class="circle_p_name red"><span>A-8</span></h3>
+                                    <h3 class="circle_p_name yellow"><span>C-11</span></h3>
                                     </div>
                                 </div>
                                 <div class="map-element" style="bottom: 0px;left: 88.2353%;width: 11.7647%;height: 21%;">
                                     <div class="map-link-room">美術教室</div>
                                     <div class="map-link-name">
-                                    <h3 class="circle_p_name red"><span>A-8</span></h3>
+                                    <h3 class="circle_p_name yellow"><span>C-2</span></h3>
                                     </div>
                                 </div>
                             </div>
