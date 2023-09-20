@@ -1,5 +1,8 @@
 
-
+.messagemain{
+    width:80%;
+    margin: 0 auto;
+}
 
 .message{
     font-family: "makinas-4-square";
