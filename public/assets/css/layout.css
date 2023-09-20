@@ -6,7 +6,10 @@
   background-attachment: fixed;
   margin-top:50px;
 }
-
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 .title-img{
   height: 200px;
   width: 560px;
