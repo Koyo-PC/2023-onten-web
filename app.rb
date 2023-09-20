@@ -159,8 +159,8 @@ get '/tyuuou' do
   erb :tyuuou
 end
 
-get '/guri' do
-  erb :guri
+get '/vr' do
+  erb :vr
 end
 
 get '/ongakukai' do
