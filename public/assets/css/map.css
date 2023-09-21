@@ -168,6 +168,27 @@
     justify-content: space-around;
     padding-left: 8px;
 }
+.map-toilet-room{
+    overflow: hidden;
+    font-size: 10px;
+    border-top: none;
+    border-left: none;
+    text-align: center;
+}
+.map-bottom-toilet-room{
+    overflow: hidden;
+    font-size: 7px;
+    border-top: none;
+    border-left: none;
+    text-align: center;
+}
+.circle-d{
+    color: white;
+    font-family: "makinas-4-square";
+}
+.display-flex{
+    display: flex;
+}
 @media screen and (min-width: 481px){
     .button-container {
         display: flex;
