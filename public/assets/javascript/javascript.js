@@ -22,7 +22,7 @@ $(function() {
 'use strict';
 
 function countdown(){
-    const targetDate = new Date( 2023, 8, 23, 0, 0, 0);
+    const targetDate = new Date( 2023, 8, 23, 9, 0, 0);
     const endgetDate = new Date( 2023, 8, 23, 16, 0, 0);
     const now = new Date();
     const distance = targetDate.getTime() - now.getTime();
