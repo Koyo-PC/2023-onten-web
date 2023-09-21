@@ -37,3 +37,707 @@
    </div>
      <p class="circle-text">今年のPC部では情報技術に関する講義、実演を行います！一コマ30分になりますが、面白い内容を用意しているので是非見に来てください！</p>
 </div>
+<%# <style>
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+  color:white;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="pc%E9%83%A8%E3%81%AE%E6%B2%BF%E9%9D%A9">PC部の沿革</h1>
+<blockquote>
+<p>われわれは、三つの問題を立てることにしたい。<br><br>
+一 PC部とは何か？ ──全てである。<br>
+二 PC部は、これまで、甲陽においてどのようなものであったか。──無であった。<br>
+三 PC部は何を要求しているのか。──何がしかのものになることを。</p>
+</blockquote>
+<p>形式<br>
+・西暦<br>
+・説明<br></p>
+<p>(105)というような表記は105回生がしたことを表す<br></p>
+<h2 id="2019%E5%B9%B4">2019年</h2>
+<p>1月<br>
+105回生の元部長K林君がバスケ部を辞める。<br>
+K林君PC同好会を設立しようとするも中学で同好会の設立は認められていないという理由で却下される。<br>
+K林くんPC同好会を設立。<br>
+初期メンバーは五人で全員が中1だった。<br></p>
+<p>5月<br>
+自由の学びの奨学金でパソコン一台を申請し審査に通った。<br>
+<s>結構スペックのいい物を無理して買っていただいた。</s><br></p>
+<p>6月<br>
+部員が増えて7人になった。(全員105回生)<br>
+先述のパソコンが届いた。<br></p>
+<p>7月<br>
+105回生は地理でケッペンの気候区分を習い、気候区分をパソコンに判定させるのが流行った。<br>
+先に30を言った方が勝ちになるゲームを色々な言語で作った。<br>
+五目並べ、オセロ、マイクラのmod、音展のホームページなどを作った。<br></p>
+<p>11月<br>
+105回生初めての音展。</p>
+<p>写真: 2019年の音展パンフレット(PC部作でない)<br>
+2019年のテーマは「船出」で、中学では珍しい二文字だった。<br>
+<span style="display: inline-block; transform: skewX(-25deg);">このパンフレットは逆から読むと「船出」が「甲陽」になるというすごいデザインとなっている。</span><br></p>
+<table>
+    <tr>
+        <td><img src="/assets/images/pc/2019_pamphlet.jpeg" alt="2019年音展のパンフレット"></td>
+        <td><img src="/assets/images/pc/2019_pamphlet_upside_down.jpeg" alt="2019年音展のパンフレット_逆"></td>
+    </tr>
+</table>
+<p>教室の半分を借り、プログラミング言語についてのポスター数枚、ホームページ、オセロ(コンピューターと対戦)を展示した。<br>
+学校のホームページと同じサーバーに公開することを願い出たが生徒の写真があり問題だという理由で却下された。教室内のパソコン(奨学金でもらったもの)に表示することでホームページの展示をした。<br>
+ホームページでは他の団体の展示の紹介や準備中の写真などを掲載した。<br>
+<a href="https://2019.koyo-onten.net/">リンクはこちら</a><br></p>
+<p>写真: ホーム画面<br>
+<img src="/assets/images/pc/funade.png" alt="船出" width="80%"></p>
+<p>写真: PC同好会準備中の様子<br>
+手前のパソコンでホームページ、オセロの展示をし、右側の仕切り板でポスターを展示した。<br>
+<img src="/assets/images/pc/2019_room.jpg" alt="2019年音展の写真" width="50%"></p>
+<p>オセロに関してはオセロ全国大会一位の子とそのお父様が来られて、ボコボコにされた。<s>そんなに弱いとは思わないが...</s><br>
+<a href="https://bjcodes.net:1140/othello.html">リンクはこちら</a><br></p>
+<p>写真: 配布した部誌<br>
+<img src="/assets/images/pc/2019_bushi.jpeg" alt="2019年音展の部誌" width="50%"></p>
+<p>また、106回生が数名入部して部員は10人になった。<br>
+音展後にボールを転がして迷路(自動生成)のゴールを目指すというゲームを作った。スマホを傾けると画面内で球が転がる仕組み。<br></p>
+<p>12月<br>
+105回生はパソコンを自作したり、競技プログラミング(以下競プロ)を始めたりした。<br></p>
+<h2 id="2020%E5%B9%B4">2020年</h2>
+<p>1月<br>
+105回生は国語で漢文の返り点を学んだので、返り点から読み順を出力するプログラムを書いた。<br></p>
+<p>2月<br>
+<strong>新型コロナウイルスの影響で学校が休みになった</strong><br>
+学年末考査が消滅した。<br>
+休みが続きゲームにも飽きたので競プロに勤しむ部員が増え、競プロブームが起こった。<br>
+学校が再開して忙しくなる7月まで続いた。<br>
+105回生①AtCorder灰→茶<br></p>
+<p>3月<br>
+105回生②AtCorder灰→茶<br></p>
+<p>5月<br>
+<a href="https://github.com/">GitHub</a>という、ファイルの変更履歴を保存できるサービスの勉強を始めた。<br>
+オンライン授業で三角関数を習った。<br>
+105回生①AtCorder茶→緑<br>
+105回生②AtCorder茶→緑<br></p>
+<p>7月<br>
+この頃まで登校後に物理準備室でパソコンを預かってもらっていたが、PC同好会専用ロッカーを買ってもらえることになった。<br>
+PC同好会のロゴのデザインはこのロッカーの鍵や物理講義室の鍵が付けてあったオブジェが元になっている。<br></p>
+<p>写真: PC同好会ロゴ<br>
+<img src="/assets/images/pc/pc_logo.png" alt="PC同好会のロゴ" width="50%"></p>
+<p>8月<br>
+音展のために、中学校を360度カメラで撮影し、中学のストリートビューを作り始めた。three.jsというものを使った。<br></p>
+<p>10月<br>
+ある部員がSVGからPNGに変換するプログラムを書いた。<br>
+ストリートビュー作成のため長い廊下を通行止めにし、校内のあちこちを撮った。顔はもちろん人が写るのが許されていなかったためである。一部は画像編集で自然に消した。<br></p>
+<p>11月<br>
+105回生2回目の音展。<br></p>
+<p>写真: 2020年の音展パンフレット<br>
+2020年のテーマは「道」だった。写真の絵は部員のH君が描いた。<br>
+<img src="/assets/images/pc/2020_pamphlet.jpeg" alt="2020年音展のパンフレット" width="50%"></p>
+<p>この音展では展示スペースを設けず、学校のサーバーを借りてオンラインで発表した。<br>
+<a href="https://2020.koyo-onten.net/">リンクはこちら</a><br></p>
+<p>写真: ホーム画面<br>
+<img src="/assets/images/pc/michi.png" alt="michi" width="80%"></p>
+<p>学校のサーバーだけに頼るのはデバッグが困難だった。<br>
+ホームページやストリートビューを校内のQRコードからアクセスして見ていただいた。<br></p>
+<p>以下ストリートビューのリンク<br>
+<a href="https://2020.koyo-onten.net/Map.html">地図画面へのリンク</a> (地図上の青い四角を押して開始)<br>
+<a href="https://2020.koyo-onten.net/Streetview.html?num=25">光庭へのリンク</a><br></p>
+<p>写真: 光庭での画面<br>
+<img src="/assets/images/pc/street_junior.png" alt="street_junior" width="80%"></p>
+<p>音展後にはマリオの1-1を自作したりUnityで音ゲーを作ったりした。<br></p>
+<h2 id="2021%E5%B9%B4">2021年</h2>
+<p>2月<br>
+先述のマリオが完成した。<br>
+この頃部員は12名いた。<br></p>
+<p>3月<br>
+105回生は全員高校へ進学となり、中学のPC同好会は実質消滅した。<br></p>
+<p>4月<br>
+高校でPC同好会が再び設立された。<br>
+部員は9人となった。<br>
+複数の部員がパソコンを買い替えた。<br></p>
+<p>6月<br>
+Vue.jsというものの学習を始めた。<br>
+高校版のストリートビューを作り始めた。<br></p>
+<p>7月<br>
+カメラを<a href="https://www.raspberrypi.com/">Raspberry Pi</a>というスマホサイズのコンピューターで制御することで定点撮影をしタイムラプスを作った。<br></p>
+<p>写真: 使われたRaspberry Pi<br>
+<img src="/assets/images/pc/zoi_raspi.jpeg" alt="ZOIのラズパイ" width="50%"></p>
+<p><a href="https://webcon.japias.jp/index.html">全国中学高校Webコンテスト</a>(以下webコン)に参加登録をした。都市鉱山について調べることにした。<br></p>
+<p>8月<br>
+高校を3Dモデルで再現した。</p>
+<p>9月<br>
+高校の音展は通常9月だが、この年は延期となって11月開催となった。</p>
+<p>10月<br>
+105回生は数学でベクトルを習った<br>
+ベクトルを使ってお絵描きができるプログラムを書いた。<br>
+ある部員は<a href="https://www.webdesign.gr.jp/">ウェブデザイン技能検定</a>(3級)に合格した。<br>
+webコンのためにMarkdownをHTMLに変換するプログラムを書いた。<br>
+10月14日に兵庫県加東市にあるパナソニックエコテクノロジーセンター（PETEC）に見学に行った。<br></p>
+<p>写真: 見学の様子<br>
+<img src="/assets/images/pc/petec.png" alt="petec" width="80%"></p>
+<p>11月<br>
+音展のホームページやwebコンのための作品作りをした。<br>
+webコンに関しては最初の審査まで時間がなかったため、11月19日に行われた校外学習の摩耶山ハイキングでパソコンを持参し、山頂で調整をした。<br>
+<span style="display: inline-block; transform: skewX(-25deg);"> 本来このハイキングは105回生が中一の時に行われるはずだったが、三年連続で雨で中止となり高一ですることになった。</span><br></p>
+<p>105回生3度目の音展<br></p>
+<p>写真: 2021年の音展パンフレット<br>
+2021年のテーマは「男祭り<span style="font-size: 10px;">音</span><span style="font-size: 5px;">the moun</span><span style="font-size: 10px;">展</span>」だった。<br>
+<img src="/assets/images/pc/2021_pamphlet.png" alt="2021年音展のパンフレット" width="50%"></p>
+<p>音展のホームページや高校のストリートビューをPC同好会所有のサーバーで公開した。<br>
+<a href="https://2021.koyo-onten.net/">リンクはこちら</a><br></p>
+<p>写真: ホーム画面<br>
+<img src="/assets/images/pc/otoko.png" alt="otoko" width="80%"></p>
+<p>2022年は不必要という理由で予算請求をしなかった。</p>
+<p>音展の頃は学校で風邪が流行っており、部員の半分はしんどかった。<br></p>
+<p>12月<br>
+部員3名はポートアイランドの理化学研究所にある<a href="https://www.fujitsu.com/jp/about/businesspolicy/tech/fugaku/">富嶽</a>を使ったプログラミングができる会に参加した。<br>
+<s>とは言っても使うのは富嶽のごく一部だが</s><br>
+冊子の小問の誘導に沿ってプログラムを組んでいくことで素数ゼミ<a href="https://ja.wikipedia.org/wiki/%E5%91%A8%E6%9C%9F%E3%82%BC%E3%83%9F">(wiki)</a>の謎を解こうという<br>
+形式だった。<br>
+富嶽は並列して多くの処理を同時に行えるので普通のパソコンでは到底終わらない計算量でも数十秒でできた。<br>
+当日は正月前で、多くの研究者が休暇中に計算してもらえるよう富嶽の予約を入れていたのでなかなか順番が回ってこなかった。<br>
+また、NHKの取材が入り、一人の部員のインタビューが放送された。<br></p>
+<p>写真 右:理化学研究所入口 左: 計算結果を表にしたもの<br></p>
+<table>
+    <tr>
+        <td><img src="/assets/images/pc/rikagaku.jpeg" alt="理化学研究所"></td>
+        <td><img src="/assets/images/pc/fugaku_output.jpg" alt="素数ゼミのグラフ"></td>
+    </tr>
+</table>
+<p>ある部員は<a href="https://www.webdesign.gr.jp/">ウェブデザイン技能検定</a>(2級)に合格した<br></p>
+<h2 id="2022%E5%B9%B4">2022年</h2>
+<p>1月<br>
+PHPの勉強を始めた<br>
+PC同好会はwebコンの審査を次々と通過していった。<br>
+最後の審査に向けて、ページの英訳やその他最終調整をした。<br></p>
+<p>2月<br>
+ある部員はRaspberry Pi(先述)が家にあるのを思い出し、発掘して使い出した。<br></p>
+<p>写真: そのRaspberry Pi(小学生の時に買ったもの、Raspberry Pi 1B)<br>
+<img src="/assets/images/pc/bj_raspi.jpeg" alt="bjのラズパイ" width="50%"></p>
+<p>音展のために買い替えようと思ったが半導体不足で新しいものが販売されておらず買えなかった。<br></p>
+<p>3月<br>
+webコンで<span style="color:orange;">金賞</span>をとった。<br></p>
+<p>写真: ホーム画面<br>
+<img src="/assets/images/pc/webcon_page.png" alt="webcon" width="80%"></p>
+<p>作品 <a href="https://contest.japias.jp/tqj24/240166C/">右ポケットの中の資源を求めて(大会所有URL)</a> <a href="https://koyo-pc.github.io/Web-Contest/#">予備用リンク(GitHub)</a><br></p>
+<p>作品と共に提出した動画<br>
+<video src="/assets/images/pc/webcon.mp4" controls width="50%"></video></p>
+<p><a href="https://www.youtube.com/watch?v=vMKq8eMK_zM&amp;ab_channel=%E7%94%B2%E9%99%BD%E5%AD%A6%E9%99%A2PC%E5%90%8C%E5%A5%BD%E4%BC%9A">見られない方用のYoutubeリンク</a></p>
+<p>校長先生に直接表彰していただいた。<br></p>
+<p>写真: 表彰状<br>
+<img src="/assets/images/pc/webcon_cert.jpg" alt="webコン表彰状" width="50%"></p>
+<p>ボディトラッカーを自作しようとした。<br>
+Gaia EDR3という星のデータを使って星空の画像を作った。<br></p>
+<p>4月<br>
+PHPを使って掲示板を作った。また通信方式やWebSocketという技術の勉強をした。<br>
+MIDI形式の音楽ファイルを再生するプログラムを書いた。(キーボードが表示される凝ったもの)<br></p>
+<p><a href="https://pckoshien.u-aizu.ac.jp/mobile/">パソコン甲子園モバイル部門</a>(以下PCK)に出場することに決める。(105×3)<br>
+「温故知新」のテーマに沿ってアプリを作ることが求められた。</p>
+<p>5月<br>
+MikuMikuDanceを使って3Dモデルを動かした。<br>
+node.jsとWebSocketの技術を使って掲示板を作ろうと思った。<br>
+Neovimの学習を始めた。</p>
+<p>6月<br>
+105回生は修学旅行で北海道に行った。<br>
+PCKのために流行しているものの盛衰を予測するアプリを作ることにする。<br>
+アプリ名はK林の意向で「TrenDiverse」になった<br>
+チーム名もK林の意向で「sprouts」になった。もやし三人組だかららしい。<br></p>
+<p>7月<br>
+夏休みに入った。掲示板を完成させた。<br>
+WebSocketという技術を使っており同時に接続している人にリアルタイムで投稿が送信される(LINEみたいな感じ)
+<a href="https://bjcodes.net:1137/wss.html">リンクはこちら</a><br></p>
+<p>PCK一次予選(書類選考)を突破<br></p>
+<p>写真: 掲示板の画像<br>
+<img src="/assets/images/pc/2chan.png" alt="2ちゃん" width="50%"></p>
+<p>8月<br>
+部員が一名増えた。<br>
+PCK用のアプリ制作を進めた。社畜状態。<br></p>
+<p>VRジェットコースターの制作を始めた。VRゴーグルで流す映像を作った。<br>
+写真: 映像からの切り抜き<br>
+<img src="/assets/images/pc/vr_image.png" alt="VR映像" width="50%"></p>
+<p><a href="https://www.youtube.com/watch?v=eYh30M4UFek&amp;ab_channel=%E7%94%B2%E9%99%BD%E5%AD%A6%E9%99%A2PC%E5%90%8C%E5%A5%BD%E4%BC%9A">実際の映像はこちら(YouTube)</a><br>
+没入感はユニバのものよりすごいらしい。<br></p>
+<p>PC同好会公式Tシャツを作った。</p>
+<p>写真 右:シャツの前面 左: シャツの後面<br></p>
+<table>
+    <tr>
+        <td><img src="/assets/images/pc/shirt_front.jpg" alt="シャツの前面"></td>
+        <td><img src="/assets/images/pc/shirt_back.jpg" alt="シャツの後面"></td>
+    </tr>
+</table>
+全面の「PC」は実行できるコードでできている。<br>
+写真: 出力の文字列(PC同好会のロゴ)<br>
+<img src="/assets/images/pc/shirt_output.png" alt="Tシャツ出力" width="25%">
+<p>多くの部員が旅行に行った。<br></p>
+<p>9月<br>
+音展の準備を進めた。<br>
+VRジェットコースターの椅子を動かす回路を作った。<br></p>
+<p>写真: 回路制作の様子<br>
+<img src="/assets/images/pc/vr_chair.jpg" alt="VRの回路" width="50%"></p>
+<p>制作途中で回路に想定より大きい電圧がかかってしまって発火し、使えなくなったので椅子を動かすのは断念した。部品は装飾品にした。<br></p>
+<p>写真: 装飾の様子<br>
+<img src="/assets/images/pc/YIYI.jpg" alt="YIYI" width="50%"></p>
+<p>二人で対戦できる早押しゲームを作った<br>
+<a href="https://bjcodes.net:1140/gun/wss.html">リンクはこちら</a><br></p>
+<p>写真: ゲームの画面<br>
+<img src="/assets/images/pc/hayauchi.png" alt="早打ちゲーム" width="50%"></p>
+<p>画像をボトルキャップで表現した時の完成イメージを出力するプログラムを書いた<br>
+<a href="https://bjcodes.net:1140/mosaic/index.html">リンクはこちら</a><br></p>
+<p>写真: 出力例<br>
+<img src="/assets/images/pc/mosaic.png" alt="モザイク" width="50%"></p>
+<p>画像を文字で表現して表示するものを作った。<br>
+<a href="https://bjcodes.net:1140/mosaic/ascii.html">リンクはこちら</a><br></p>
+<p>写真: 出力例(部誌の表紙に加工したもの)<br>
+<img src="/assets/images/pc/araki.png" alt="ASCII" width="50%"></p>
+<p>2022年音展のテーマは「宴JOY」だった。<br>
+PC部はホームページ、VRジェットコースター、掲示板、ハッキング講座、部誌を発表。<br>
+音展の公式ホームページはPC同好会所有のサーバーで公開した。<br>
+<a href="https://2022.koyo-onten.net/">リンクはこちら</a><br></p>
+<p>写真: ホーム画面<br>
+<img src="/assets/images/pc/enjoy.png" alt="ホームページ" width="80%"></p>
+<p>VRジェットコースターは予想以上に繁盛した。<br></p>
+<table>
+    <tr>
+        <td><img src="/assets/images/pc/VR_1.jpg" alt="VR_1"></td>
+        <td><img src="/assets/images/pc/VR_2.jpg" alt="VR_2"></td>
+    </tr>
+    <tr>
+        <td><img src="/assets/images/pc/VR_3.jpg" alt="VR_3"></td>
+        <td><img src="/assets/images/pc/VR_4.jpg" alt="VR_4"></td>
+    </tr>
+</table>
+<p>ハッキング講座を物理講義室で行った。<br></p>
+<img src="/assets/images/pc/ZOI_speech.jpg" alt="ハッキング講座" width="50%">
+<p>2022年はパンフレットも制作した<br></p>
+<p>予算はPC同好会とVRジェットコースター(PC同好会とは独立した団体にした)合わせて10万超をもらう<br></p>
+<p>写真: VRジェットコースターの詳細<br></p>
+<table>
+    <tr>
+        <td><img src="/assets/images/pc/yosan_2022_1.jpg" alt="yosan_2022_1"></td>
+        <td><img src="/assets/images/pc/yosan_2022_2.jpg" alt="yosan_2022_2"></td>
+    </tr>
+</table>
+<p>10月<br>
+急いでPCKの準備をする。</p>
+<p>11月<br>
+PCKのアプリが完成。Twitter APIでTwitterでのトレンドを予測し、過去の膨大なトレンドデータから今後の話題度の推移を予測する。<br>
+<s>イー○ンマスクのせいでもうTwitter APIは無料で使えない</s></p>
+<p>写真: (左)濃い赤が現在までの話題度の推移、薄い赤が今後の予測 (右)約一日後に確認した時のグラフ 流行の終了の予測精度は高い<br></p>
+<table>
+    <tr>
+        <td><img src="/assets/images/pc/pck_7.png" alt="pck_7" width="80%"></td>
+        <td><img src="/assets/images/pc/pck_8.png" alt="pck_8" width="80%"></td>
+    </tr>
+</table>
+<p><a href="https://www.youtube.com/watch?v=MlwzOW7JC8A&amp;list=PLQCCg6JMgI3SeIY2n30lF4eyb-hpykp4A&amp;index=8&amp;ab_channel=%E7%94%B2%E9%99%BD%E5%AD%A6%E9%99%A2PC%E5%90%8C%E5%A5%BD%E4%BC%9A">プレゼンの様子(YouTube)</a><br>
+<a href="https://www.youtube.com/watch?v=KfAA74LdCc0&amp;list=PLQCCg6JMgI3SeIY2n30lF4eyb-hpykp4A&amp;index=9&amp;ab_channel=%E7%94%B2%E9%99%BD%E5%AD%A6%E9%99%A2PC%E5%90%8C%E5%A5%BD%E4%BC%9A">デモセッションの様子(YouTube)</a><br></p>
+<p>結果「バンタン賞(企業賞)」と「ベストデザイン賞を受賞」。商品は奨学金計15万(一人5万ずつ分配)と全員にペンタブ、菓子詰め合わせ、桃ジュース。<br></p>
+<table>
+    <tr>
+        <td><img src="/assets/images/pc/pck_2.png" alt="pck_2"></td>
+        <td><img src="/assets/images/pc/pck_1.png" alt="pck_1"></td>
+    </tr>
+    <tr>
+        <td><img src="/assets/images/pc/pck_3.png" alt="pck_3"></td>
+        <td><img src="/assets/images/pc/pck_4.png" alt="pck_4"></td>
+    </tr>
+    <tr>
+        <td><img src="/assets/images/pc/pck_5.png" alt="pck_5"></td>
+        <td><img src="/assets/images/pc/pck_6.png" alt="pck_6"></td>
+    </tr>
+</table>
+<p>PCK後は競プロが流行った。<br>
+105回生③AtCorder灰→茶<br></p>
+<p>12月<br>
+この時点でPC同好会は105回生(当時高2)+106回生(当時高1)ごく少数で構成されており深刻に消滅が懸念される。そもそも勧誘をしていなかった。<br>
+積極的に勧誘をする方針に変わった。<br></p>
+<p>2023年<br></p>
+<p>2月<br>
+105回生③AtCorder茶→緑<br></p>
+<p>3月<br>
+勧誘用のポスターを作成<br>
+<img src="/assets/images/pc/poster.jpg" alt="ポスター" width="50%"></p>
+<p>4月<br>
+多くの107回生が入部し、部員数は30人を超える。<br>
+105回生はプログラミング教育に当たる。<br>
+部員が増えたので部会を開くことにする<br></p>
+<p>5月<br>
+「速読英単語」という英語教材の音声がブラウザで配布されているだけで速度調整が細かくできないことに怒り、自分で再生ツールを作成(105)<br>
+Raspberry Piを買い替え、サーバーをDockerを使って管理するようにした。(105)<br>
+AtCoderの精進を促すための通知Botを制作(105)<br></p>
+<p>6月<br>
+部員をチームに分け、音展の役割分担をする(106)<br>
+<img src="/assets/images/pc/onten_team.jpg" alt="役割分担" width="50%"></p>
+<p>8月<br>
+学校上空にドローンを飛ばし校舎を空撮(107)<br>
+Blenderを勉強(107)<br>
+VRジェットコースターに使われる校舎の3Dモデルを改良する。(107)<br>
+アセンブリに触れる(107)<br>
+105回生③AtCorder緑→水<br>
+107回生①AtCorder灰→茶<br></p>
+<p>9月<br>
+音展のためにホームページを制作(106×1+107×5)<br>
+音展用にARによる案内ツールを作ろうとする(107)<br>
+PCKプログラミング部門に出場する。(105×1+107×1) チーム名は「sprouts」を引き継ぐ。<br></p>
+<p>写真: 予選の様子<br>
+<img src="/assets/images/pc/PCK_yosen.jpg" alt="PCK予選" width="80%"></p>
+<p>2023年音展のテーマは「New ERA」だった。<br>
+ホームページをRubyをベースに制作した。<br></p>
+<p>写真: ホームページの写真<br>
+<img src="/assets/images/pc/nera.png" alt="nera" width="80%"></p>
+<p><a href="https://2023.koyo-onten.net/">リンクはこちら</a><br></p>
+<p>予算は28100円をもらった。<br></p>
+<p>写真: 2023年度予算金額の表<br>
+<img src="/assets/images/pc/yosan_2023.jpg" alt="2023_yosan" width="40%"></p>
+<p>VRジェットコースターはモデルが改良されとてもリアルになった。またコースも変更された。<br></p>
+<p>写真: モデルの写真<br>
+<img src="/assets/images/pc/vr_model_1.png" alt="model_1" width="80%">
+<img src="/assets/images/pc/vr_model_2.png" alt="model_2" width="80%"></p>
+
+</body> %>
