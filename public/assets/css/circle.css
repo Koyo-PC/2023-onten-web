@@ -171,6 +171,10 @@ width: 48%;
     font-size: 30px;
     color: #e0e0e0;
 }
+.vr-text{
+    color: #da3e50;
+    font-family: "makinas-4-square";
+}
 @media screen and (min-width: 481px){
     .circles-location .meta-loc{
         display: block;
