@@ -182,6 +182,13 @@
     border-left: none;
     text-align: center;
 }
+.circle-d{
+    color: white;
+    font-family: "makinas-4-square";
+}
+.display-flex{
+    display: flex;
+}
 @media screen and (min-width: 481px){
     .button-container {
         display: flex;
