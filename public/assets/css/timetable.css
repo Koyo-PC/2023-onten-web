@@ -6,6 +6,9 @@
   overflow-x: scroll;
   overflow: scroll;
 }
+#time-ssmall{
+  font-size: 5px;
+}
 #time-small{
   font-size: 14px;
 }
@@ -123,7 +126,6 @@
 .time-table td{
   height: 30px;
 }
-
 td{
   font-family: "makinas-4-square";
 }
@@ -132,7 +134,7 @@ td{
   top: 0;
   left: 0;
   padding: 5px;
-  font-size: 7px;
+  font-size: 14px;
   font-family: "makinas-4-square";
 }
 .time-end{
@@ -140,7 +142,7 @@ td{
   bottom: 0;
   right: 0;
   padding: 5px;
-  font-size: 7px;
+  font-size: 14px;
   font-family: "makinas-4-square";
 }
 .line{
