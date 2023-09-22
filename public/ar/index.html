@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- three.jsの読み込み -->
+        <script src="https://unpkg.com/three@0.147.0/build/three.min.js"></script>
+        <script src="https://unpkg.com/three@0.147.0/examples/js/loaders/GLTFLoader.js"></script>
+        <script src="https://unpkg.com/three@0.147.0/examples/js/controls/OrbitControls.js" defer></script>
+
+        <!-- A-Frame を読み込む -->
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+        <!-- AR.js を読み込む -->
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+        <!-- <script src="https://unpkg.com/aframe-orbit-controls@1.4.0/dist/aframe-orbit-controls.min.js"></script> -->
+        <!-- 以下は要変更 -->
+        <title>Document</title>
+        <script src="./main.js"></script>
+    </head>
+    <body style="margin: 0; overflow: hidden">
+        <!-- <input type="button" id="permit" value="SafariでDeviceOrientationを許可"/> -->
+        <!-- A-FrameにAR.jsを紐づけ、VRボタン非表示、深度バッファ追加 -->
+        <a-scene embedded arjs vr-mode-ui="enabled: false;" renderer="logarithmicDepthBuffer: true;">
+	    
+            <!-- 3DCGモデルを読み込む -->
+            <a-assets>
+                <a-asset-item id="arrow" src="./model/3Dmodel/arrow_left.glb"></a-asset-item>
+            </a-assets>
+    
+            <!-- マーカーの.pattファイルを読み込む -->
+            <!-- 以下のサイトで変更可　https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html -->
+            <a-marker type="pattern" url="./model/marker.patt">
+                <!-- 3Dモデルを呼び出す -->
+                <a-entity gltf-model="#arrow" id="model_arrow"></a-entity>
+            </a-marker>
+    
+            <!-- カメラを追加 -->
+            <a-entity camera id="camera"></a-entity>
+        </a-scene>
+    </body>
+
+
+
+<!-- リンクの形式：https://sotaokumura.github.io/AR-sample/?from=%E6%95%B0%E5%AD%A6&to=%E8%AC%9B%E5%A0%82 -->
+
