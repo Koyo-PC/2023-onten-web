@@ -526,7 +526,7 @@ function init() {
     )
 
 	document.getElementById("ARmarker").setAttribute("url", 
-    "./model/marker/pattern-" + decodeURI(searchParams.get('from')) + ".patt"
+    "./model/marker/pattern-" + ARmarker[decodeURI(searchParams.get('from'))] + ".patt"
     )
 
     // 簡易的なOS判定
