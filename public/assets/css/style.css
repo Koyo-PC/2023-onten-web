@@ -174,7 +174,7 @@ html,body{
 .count-div2{
   height: 200px;
   margin: 0 auto;
-  width: 700px;
+  width: 800px;
   background-size: cover;
   position: relative;
 }
@@ -182,6 +182,7 @@ html,body{
   font-family:'mega', sans-serif;
   font-size: 40px;
   text-align: center;
+  color: #05c8e6;
 }
 .countdown-p{
   font-size: 40px;
