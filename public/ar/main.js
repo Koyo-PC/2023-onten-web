@@ -516,17 +516,17 @@ const arrow = {
     }
 }
 
-const searchParams = new URLSearchParams(window.location.search)
+const params = new URLSearchParams(window.location.search)
 
 // 初期化
 function init() {
 
     document.getElementById("arrow").setAttribute("src", 
-    "./model/3Dmodel/arrow"+arrow[decodeURI(searchParams.get('from'))][decodeURI(searchParams.get('to'))]+".glb"
+    "./model/3Dmodel/arrow_" + arrow[decodeURI(params.get('from'))][decodeURI(params.get('to'))] + ".glb"
     )
 
 	document.getElementById("ARmarker").setAttribute("url", 
-    "./model/marker/pattern-"+ARmarker[decodeURI(searchParams.get('from'))]+".patt"
+    "./model/marker/pattern-"+ARmarker[decodeURI(params.get('from'))]+".patt"
     )
 
     // 簡易的なOS判定
