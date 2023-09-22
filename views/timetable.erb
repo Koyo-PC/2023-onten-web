@@ -21,6 +21,15 @@
         },
         h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
       })(document);
+
+      function show_small() {
+        document.querySelectorAll(".time-first.timetable-small")[0].style.display = "block"
+        document.querySelectorAll(".time-first.timetable-big")[0].style.display = "none"
+      }
+      function show_big() {
+        document.querySelectorAll(".time-first.timetable-small")[0].style.display = "none"
+        document.querySelectorAll(".time-first.timetable-big")[0].style.display = "block"
+      }
     </script>
 <div class="title-main">
     <img src="/assets/images/titles/timetable.webp" class="title-img">
@@ -83,8 +92,7 @@
         </style>
         <a href="#" class="gotop"></a>
 <div class="time-set">
-      <%# <div class="time-road"><p style="text-align: center;">スクロール</p></div> %>
-      <div class="time-first">
+      <div class="time-first timetable-small">
         <div class="line nineo">9:00</div>
         <div class="line ninet"></div>
         <div class="line teno">10:00</div>
@@ -507,9 +515,9 @@
             <td></td>
             <td></td>
             <td class="time-event">
-              <span class="time-start">12:25~</span>
-              <span class="time-end">~12:30</span>
-              <a href="/tyuuou">LOVE_SICK</a></td>
+              <span class="time-start" id="time-ssmall">12:25~</span>
+              <span class="time-end" id="time-ssmall">~12:30</span>
+              <a href="/tyuuou"><span id="time-ssmall">LOVE_SICK</span></a></td>
             <td></td>
             <td></td>
           </tr>
@@ -718,18 +726,20 @@
           <tr>
             <td></td>
             <td></td>
-            <td rowspan="10" class="time-event">
-              <span class="time-start">14:10~</span>
-              <span class="time-end">~15:00</span>
-              <a href="/annsannburubu"><span style="font-size: 20px">Ⅱ部</span><Br><br>恋<br><br>A列車で行こう<br><br>たなばた<br><br>We Are Confidence Man<br><Br>美しい鰭<br><br>可愛くてごめん<br><br>プロヴァンスの風</a>
-            </td>
           </tr>
           <tr>
             <td></td>
             <td rowspan="2" class="time-event">
               <span class="time-start">14:10~</span>
               <span class="time-end">~14:20</span>
-              <a href="/tyuuou">Gangnam style</a></td>
+              <a href="/tyuuou">Gangnam style</a>
+            </td>
+            <td></td>
+            <td rowspan="10" class="time-event">
+              <span class="time-start">14:10~</span>
+              <span class="time-end">~15:00</span>
+              <a href="/annsannburubu"><span style="font-size: 20px">Ⅱ部</span><Br><br>恋<br><br>A列車で行こう<br><br>たなばた<br><br>We Are Confidence Man<br><Br>美しい鰭<br><br>可愛くてごめん<br><br>プロヴァンスの風</a>
+            </td>
             <td></td>
             <td></td>
           </tr>
