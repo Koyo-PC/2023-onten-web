@@ -25,6 +25,63 @@
 <div class="title-main">
     <img src="/assets/images/titles/timetable.webp" class="title-img">
 </div>
+<style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .gotop{
+            display: block;
+            width: 50px;
+            height: 50px;
+            box-sizing: border-box;
+            background: rgba(10,60,180);
+            border-radius: 25px;
+            padding-top: 30px;
+            text-align: center;
+            letter-spacing: -1px;
+            font-size: 85%;
+            text-decoration: none;
+            color: #ffffff;
+            opacity: 0.5;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 10000;
+        }
+        .gotop::before{
+            content: "";
+            display: block;
+            border-top: 4px solid #ffffff;
+            border-right: 4px solid #ffffff;
+            width: 40%;
+            height: 40%;
+            top: 40%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            transform: rotate(-45deg);
+        }
+        .gotop:hover{
+            opacity: 1;
+        }
+        @media(max-width:750px){
+            .gotop{
+                width: 40px;
+                height: 40px;
+                text-indent: -9999px;
+                opacity: 1;
+                border: none;
+                background: none;
+                bottom: 10px;
+                right: 10px;
+            }
+            .gotop::before{
+                bottom: 0;
+            }
+        }
+        </style>
+        <a href="#" class="gotop"></a>
 <div class="time-set">
       <%# <div class="time-road"><p style="text-align: center;">スクロール</p></div> %>
       <div class="time-first">
@@ -47,7 +104,7 @@
             <td class="time-title positionsticky" ><a href="/map">講堂</a></td>
             <td class="time-title positionsticky"><a href="/map">中央<br>ステージ</a></td>
             <td class="time-title positionsticky"><a href="/map">バンド</a></td>
-            <td class="time-title positionsticky"><a href="/map">ルーム<br>コンサート</a></td>
+            <td class="time-title positionsticky"><a href="/map" id="time-small">ルーム<br>コンサート<br><small>(アンサンブル部)</small></a></td>
             <td class="time-title positionsticky"><a href="/map">2A<br>脱出ゲーム</a></td>
             <td class="time-title positionsticky"><a href="/map">2B<br>脱出ゲーム</a></td>
             <td class="time-title positionsticky"><a href="/map">視聴覚室</a></td>
@@ -57,11 +114,7 @@
           <tr class="clearfix">
             <th rowspan="12" class="time-timel">9:00</th>
             <td></td>
-            <td rowspan="8" class="time-event-left">
-              <span class="time-start">9:00~</span>
-              <a href="/ongakukai">個人演奏Ⅰ</a>
-              <span class="time-end">~9:40</span>
-            </td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -78,19 +131,24 @@
             <td></td>
             <td></td>
             <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
             <td></td>
           </tr>
           <tr>
             <td></td>
             <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td rowspan="5" class="time-event">
+              <span class="time-start">9:15~</span>
+              <a href="/ongakukai">個人演奏Ⅰ</a>
+              <span class="time-end">~9:40</span>
+            </td>
             <td></td>
             <td></td>
             <td></td>
@@ -525,7 +583,7 @@
             <td rowspan="2" class="time-event">
               <span class="time-start">13:00~</span>
               <span class="time-end">~13:10</span>
-              <a href="/tyuuou">点描の歌</a></td>
+              <a href="/tyuuou">快晴</a></td>
             <td></td>
             <td></td>
             <td></td>
@@ -582,7 +640,7 @@
             <td rowspan="2" class="time-event">
               <span class="time-start">13:30~</span>
               <span class="time-end">~13:40</span>
-              <a href="/tyuuou">快晴</a></td>
+              <a href="/tyuuou">点描の歌</a></td>
             <td></td>
             <td></td>
             <td rowspan="8" class="time-event">

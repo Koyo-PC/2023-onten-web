@@ -32,6 +32,63 @@
       <div class="image">
         <img src="/assets/images/logo_white.webp" class="logo">
         <img src="/assets/images/logo_background.gif" class="logo-gif">
+        <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .gotop{
+            display: block;
+            width: 50px;
+            height: 50px;
+            box-sizing: border-box;
+            background: rgba(10,60,180);
+            border-radius: 25px;
+            padding-top: 30px;
+            text-align: center;
+            letter-spacing: -1px;
+            font-size: 85%;
+            text-decoration: none;
+            color: #ffffff;
+            opacity: 0.5;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 10000;
+        }
+        .gotop::before{
+            content: "";
+            display: block;
+            border-top: 4px solid #ffffff;
+            border-right: 4px solid #ffffff;
+            width: 40%;
+            height: 40%;
+            top: 40%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            transform: rotate(-45deg);
+        }
+        .gotop:hover{
+            opacity: 1;
+        }
+        @media(max-width:750px){
+            .gotop{
+                width: 40px;
+                height: 40px;
+                text-indent: -9999px;
+                opacity: 1;
+                border: none;
+                background: none;
+                bottom: 10px;
+                right: 10px;
+            }
+            .gotop::before{
+                bottom: 0;
+            }
+        }
+        </style>
+        <a href="#" class="gotop"></a>
         <%# <img src="/assets/images/kari.jpg" class="logo-gif"> %>
       </div>
     </div>

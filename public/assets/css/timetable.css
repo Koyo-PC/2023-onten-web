@@ -6,6 +6,29 @@
   overflow-x: scroll;
   overflow: scroll;
 }
+#time-small{
+  font-size: 14px;
+}
+.time-set{
+  position: relative;
+}
+.time-road{
+  position: absolute;
+  width: 90%;
+  height: 500px;
+  top: 0;
+  left: 0;
+  vertical-align: middle;
+  text-align: center;
+  color: whitesmoke;
+  margin: auto;
+}
+.time-road.loaded {
+  animation: fadeOut 10s forwards;
+  z-index: -100;
+}
+
+
 .time-table {
   width: 1246px;
   /* box-shadow: 0px 0px 20px 20px whitesmoke; */
@@ -15,6 +38,9 @@
   word-wrap: break-word;
   font-family: "square", sans-serif;
   font-family: "makinas-4-square";
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .time-timel {
   width: 50px;
@@ -199,4 +225,5 @@ td{
   .time-event{width: 110px;}
   .time-event-left{width: 110px;}
   .time-title{width: 110px;}
+  #time-small{font-size: 13px;}
 }
