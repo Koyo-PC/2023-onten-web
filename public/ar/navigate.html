@@ -1,0 +1,235 @@
+<!-- リンク形式：…/navigate.html?from= decodeURI(searchParams.get('from')) -->
+
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>navigte home</title>
+    <meta name="description" content="甲陽道案内">
+    
+    <script src="./navigate.js"></script>
+    
+    <style>
+        @font-face{
+            font-family: 'myfont';
+
+            src: url('makinas4/Makinas-4-Flat.otf');
+            src: url('makinas4/Makinas-4-Square.otf');
+        }
+        body{
+            background-image: url(photos/backimage.jpg);
+            background-size: contain;
+            text-align: center;
+            font-family:'myfont';
+            color: white;
+        }
+        img{
+            width: 50%;
+            margin-top: 2%;
+        }
+        .tytle{
+            font-size: 500%;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        .main{
+            display: flex;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .contents1{
+            width: 50%;
+            text-align: center;
+        }
+        .contents2{
+            width: 50%;
+            height: 50px;
+            text-align: center;
+        }
+        h2{
+            font-size: 350%;
+        }
+        h3{
+            font-size: 220%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+      <h1 class="tytle">音展 道案内</h1>  
+    </header>
+
+    <article>
+        <h2>目的地を選択してください</h2>
+
+        <div class="main">
+            <div class="contents1" id="PC">
+                 <h3>講義（PC同好会）</h3>
+                 <img src="./navigate/photos/pc.png">
+                 <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+                </div>
+            <div class="contents2" id="VR">
+                <h3>VRジェットコースター</h3>
+                <img src="./navigate/photos/vr.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+                </div>
+        </div>
+
+        <div class="main">
+            <div class="contents1" id="音楽">
+            <h3>音楽会</h3> 
+            <img src="./navigate/photos/ongakukai.webp">
+            <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+         </div>
+        <div class="contents2" id="高校入試">
+            <h3>高校入試</h3>
+            <img src="./navigate/photos/koukou.png">
+            <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+        </div>
+        </div>
+
+        <div class="main">
+            <div class="contents1" id="喫茶">
+                <h3>喫茶</h3>
+                <img src="./navigate/photos/kissa.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+            <div class="contents2" id="脱出">
+                <h3>脱出ゲーム</h3>
+                <img src="./navigate/photos/dassyutu.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="contents1" id="ジェット">
+                <h3>ジェットコースター</h3>
+                <img src="./navigate/photos/jetto.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+            <div class="contents2" id="縁日"> 
+                <h3>縁日</h3>
+                <img src="./navigate/photos/ennniti.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+               
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="contents1" id="写真">
+                <h3>写真部</h3>
+                <img src="./navigate/photos/shashinn.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+            <div class="contents2" id="美術">
+                <h3>美術部</h3>
+                <img src="./navigate/photos/bizyutu.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="contents1" id="将棋">
+                <h3>将棋部</h3>
+                <img src="./navigate/photos/shougi.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+            <div class="contents2" id="物理">
+                <h3>物理部</h3>
+                <img src="./navigate/photos/buturi.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+        </div>
+
+        <div class="main" id="地歴">
+            <div class="contents1">
+                <h3>地歴部</h3>
+                <img src="./navigate/photos/tireki.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+            <div class="contents2" id="文芸">
+                <h3>文芸部＆図書委員</h3>
+                <img src="./navigate/photos/bunngeitosho.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="contents1" id="天文">
+                <h3>天文部</h3>
+                <img src="./navigate/photos/nopicture.JPG">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+            <div class="contents2" id="科学">
+                <h3>科学部</h3>
+                <img src="./navigate/photos/kagaku.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="contents1" id="ESS">
+                <h3>ESS部</h3>
+                <img src="./navigate/photos/ess.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+            <div class="contents2" id="生物">
+                <h3>生物部</h3>
+                <img src="./navigate/photos/seibutubu.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="contents1" id="アンサンブル">
+                <h3>アンサンブル部</h3>
+                <img src="./navigate/photos/annsannburu.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+                
+            </div>
+            <div class="contents2" id="数学">
+                <h3>数学同好会</h3>
+                <img src="./navigate/photos/suugaku.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="contents1" id="奇術">
+                <h3>奇術同好会</h3>
+                <img src="./navigate/photos/kizyutu.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+            <div class="contents2" id="鉄道">
+                <h3>鉄道同好会</h3>
+                <img src="./navigate/photos/tetudou.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="contents1" id="旅行">
+                <h3>旅行同好会</h3>
+                <img src="./navigate/photos/ryokou.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+            <div class="contents2" id="スプラ">
+                <h3>スプラトゥーン同好会</h3>
+                <img src="./navigate/photos/splatoon.png">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>
+            </div>
+        </div>
+        
+        <div class="main">
+            <div class="contents1" id="軽音">
+        <h3>軽音同好会</h3>
+                <img src="./navigate/photos/nopicture.JPG">
+                <a href="#"><img src="./navigate/photos/navigatebottun.jpg"></a>  
+                </div>
+
+        
+    </article>
+</body>
