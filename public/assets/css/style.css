@@ -140,7 +140,7 @@ html,body{
 }
 .date{
   text-align:center;
-  margin-top:200px;
+  /* margin-top:200px; */
   color:white;
 }
 .main-date{
@@ -232,6 +232,14 @@ html,body{
     text-shadow: #d9d9d9 0 0 10px;
     /* padding: 2px auto; */
   }
+  .date{
+    /* margin-top:2rem; */
+    width:90%;
+    height:20rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin:2rem auto;
+  }
 }
 @media screen and (max-width: 480px){
   .logo{
@@ -251,7 +259,12 @@ html,body{
     height:25rem
   }
   .date{
-    margin-top:2rem;
+    /* margin-top:2rem; */
+    width:90%;
+    height:11rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin:0 auto;
   }
   .main-date {
     font-size: 150px;
@@ -278,7 +291,7 @@ html,body{
     top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
-    text-shadow: #d9d9d9 0 0 10px;
+    text-shadow: #d9d9d9 0 0 5px;
 }
 #countdown{
   font-size: 34px;
