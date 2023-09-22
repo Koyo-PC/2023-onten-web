@@ -326,7 +326,7 @@ nav li a{
       padding: 50px;
       background-color: #303030;
       color: #e2e2e2;
-      margin-top:50px;
+      /* margin-top:50px; */
       z-index: 100;
   }
 }

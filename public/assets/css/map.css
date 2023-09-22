@@ -188,6 +188,12 @@
 }
 .display-flex{
     display: flex;
+    position: relative;
+}
+.place{
+    position: absolute;
+    left:70%;
+    font-family: "makinas-4-square";
 }
 @media screen and (min-width: 481px){
     .button-container {
