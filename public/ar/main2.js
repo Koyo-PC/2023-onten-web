@@ -41,7 +41,7 @@ function init() {
   const searchParams = new URLSearchParams(window.location.search)
 
   loader.load(
-    "./model/" + "from" + decodeURI(searchParams.get('from')) + "to" + decodeURI(searchParams.get('to')) + ".glb",
+    "./model/3Dmodel/" + "from" + decodeURI(searchParams.get('from')) + "to" + decodeURI(searchParams.get('to')) + ".glb",
     function (gltf) {
       model = gltf.scene;
       model.traverse((object) => {
