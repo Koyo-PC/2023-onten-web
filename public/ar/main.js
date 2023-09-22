@@ -522,7 +522,7 @@ const searchParams = new URLSearchParams(window.location.search)
 function init() {
 
     document.getElementById("arrow").setAttribute("src", 
-    "./model/3Dmodel/arrow" + arrow[decodeURI(searchParams.get('from'))][decodeURI(searchParams.get('to'))] + ".glb"
+    "./model/3Dmodel/arrow_" + arrow[decodeURI(searchParams.get('from'))][decodeURI(searchParams.get('to'))] + ".glb"
     )
 
 	document.getElementById("ARmarker").setAttribute("url", 
