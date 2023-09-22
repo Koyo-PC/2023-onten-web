@@ -8,7 +8,7 @@ function init() {
         if(elem.id == params.get("from")) {
             button.src = "./navigate/photos/statpointbutton.jpg"
         } else {
-            atag.href = "./index.html?from=" + params.get("from") + "&to=" + elem.id
+            atag.href = "./index.html?from=" + decodeURI(searchParams.get('from')) + "&to=" + elem.id
         }
     })
 }
