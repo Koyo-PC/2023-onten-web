@@ -171,7 +171,22 @@ html,body{
   width:90%;
   margin:0 auto;
 }
-
+.count-div2{
+  height: 200px;
+  margin: 0 auto;
+  width: 700px;
+  background-size: cover;
+  position: relative;
+}
+#countdown1{
+  font-family:'mega', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+.countdown-p{
+  font-size: 40px;
+  color: #ffffff;
+}
 
 /* ここまで */
 
@@ -266,5 +281,11 @@ html,body{
 }
 #countdown{
   font-size: 34px;
+}
+.count{
+  width:100%;
+}
+#countdown1{
+font-size: 34px;
 }
 }
