@@ -7,7 +7,7 @@
 .button-container{
     width:70%;
     margin:0 auto;
-    padding-top:50px;
+    /* padding-top:50px; */
 }
 .map-text{
     color:white;
@@ -195,13 +195,20 @@
     left:70%;
     font-family: "makinas-4-square";
 }
+.exp{
+    font-family: "makinas-4-square";
+    font-size:20px;
+    color:white;
+    /* margin:0 auto; */
+    /* display:block; */
+}
 @media screen and (min-width: 481px){
     .button-container {
         display: flex;
     }
 
     .button {
-        border:3px solid gray;
+        /* border:3px solid gray; */
     }
 
     .map-content {
