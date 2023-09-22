@@ -525,6 +525,10 @@ function init() {
     "./model/3Dmodel/arrow.glb_" + arrow[decodeURI(searchParams.get('from'))][decodeURI(searchParams.get('to'))] + ".glb"
     )
 
+	document.getElementById("ARmarker").setAttribute("url", 
+    "./model/marker/pattern-" + decodeURI(searchParams.get('from')) + ".patt"
+    )
+
     // 簡易的なOS判定
     os = detectOSSimply();
     if (os == "iphone") {
