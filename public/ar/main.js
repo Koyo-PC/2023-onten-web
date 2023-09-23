@@ -521,7 +521,7 @@ const params = new URLSearchParams(window.location.search)
 // 初期化
 function init() {
 
-    document.getElementById("arrow_assets").innerHTML = '<a-asset-item id="arrow" src="./model/3Dmodel/arrow_' + arrow[decodeURI(params.get('from'))][decodeURI(params.get('to'))] + '"></a-asset-item>'
+    document.getElementById("arrow_assets").innerHTML = '<a-asset-item id="arrow" src="./model/3Dmodel/arrow_' + arrow[decodeURI(params.get('from'))][decodeURI(params.get('to'))] + '.glb"></a-asset-item>'
 
 	document.getElementById("ARmarker").setAttribute("url", 
     "./model/marker/pattern-"+params.get('from')+".patt"
