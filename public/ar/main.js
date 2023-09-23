@@ -521,12 +521,11 @@ const params = new URLSearchParams(window.location.search)
 // 初期化
 function init() {
 
-    document.getElementById("arrow").setAttribute("src", 
-    "./model/3Dmodel/arrow_" + arrow[decodeURI(params.get('from'))][decodeURI(params.get('to'))] + ".glb"
-    )
+    docum
+    document.getElementsByTagName("a-assets").innerHTML = '<a-asset-item id="arrow" src="./model/3Dmodel/arrow_' + arrow[decodeURI(params.get('from'))][decodeURI(params.get('to'))] + '"></a-asset-item>'
 
 	document.getElementById("ARmarker").setAttribute("url", 
-    "./model/marker/pattern-"+ARmarker[decodeURI(params.get('from'))]+".patt"
+    "./model/marker/pattern-"+params.get('from')+".patt"
     )
 
     // 簡易的なOS判定
