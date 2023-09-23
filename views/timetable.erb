@@ -30,9 +30,17 @@
         document.querySelectorAll(".time-first.timetable-small")[0].style.display = "none"
         document.querySelectorAll(".time-first.timetable-big")[0].style.display = "block"
       }
+      window.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll(".time-first.timetable-small")[0].style.display = "block"
+        document.querySelectorAll(".time-first.timetable-big")[0].style.display = "none"
+      });
     </script>
 <div class="title-main">
     <img src="/assets/images/titles/timetable.webp" class="title-img">
+    <div class="time-mov">
+    <button onclick="show_small()" class="time-botu">小サイズ</button>
+    <button onclick="show_big()" class="time-botu">大サイズ</button>
+    </div>
 </div>
 <style>
         html{
@@ -93,6 +101,733 @@
         <a href="#" class="gotop"></a>
 <div class="time-set">
       <div class="time-first timetable-small">
+        <div class="line nineo">9:00</div>
+        <div class="line ninet"></div>
+        <div class="line teno">10:00</div>
+        <div class="line tent"></div>
+        <div class="line eleo">11:00</div>
+        <div class="line elet"></div>
+        <div class="line tweo">12:00</div>
+        <div class="line twet"></div>
+        <div class="line thio">13:00</div>
+        <div class="line thit"></div>
+        <div class="line fouo">14:00</div>
+        <div class="line fout"></div>
+        <table class="time-table">
+          <tr>
+            <th class="time-nonl positionsticky"></th>
+            <td class="time-title positionsticky" ><a href="/map">講堂</a></td>
+            <td class="time-title positionsticky"><a href="/map">中央<br>ステージ</a></td>
+            <td class="time-title positionsticky"><a href="/map">物理講義室</a></td>
+            <td class="time-title positionsticky"><a href="/map">バンド</a></td>
+            <td class="time-title positionsticky"><a href="/map" id="time-small">ルーム<br>コンサート<br><small id="slsmall">(アンサンブル)</small></a></td>
+            <td class="time-title positionsticky"><a href="/map">2A<br>脱出ゲーム</a></td>
+            <td class="time-title positionsticky"><a href="/map">2B<br>脱出ゲーム</a></td>
+            <td class="time-title positionsticky"><a href="/map">視聴覚室</a></td>
+            <th class="time-nonr positionsticky"></th>
+          </tr>
+          <!-- 9:00 -->
+          <tr class="clearfix">
+            <th rowspan="12" class="time-timel">9:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th rowspan="12" class="time-timer">9:00</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td rowspan="5" class="time-event">
+              <span class="time-start">9:15~</span>
+              <a href="/ongakukai">個人演奏Ⅰ</a>
+              <span class="time-end">~9:40</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- 9:30 -->
+          <tr>
+            <td></td>
+            <td rowspan="6" class="time-event">
+              <span class="time-start">9:30~</span>
+              <span class="time-end">~10:00</span>
+              <a href="/pcdoukoukai">chatGPTを使った<br>プログラミング実演</a>
+            </td>
+            <td></td>
+            <td></td>
+            <td rowspan="8" class="time-event">
+              <span class="time-start">9:30~</span>
+              <span class="time-end">~10:10</span>
+              <a href="/dassyutu">連続爆破事件<br>からの脱出<br>1</a>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td rowspan="4" class="time-event-left">
+              <span class="time-start">9:43~</span>
+              <span class="time-end">~10:05</span>
+              <a href="/ongakukai">1年クラス合唱</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="10" class="time-event">
+              <span class="time-start">9:50~</span>
+              <span class="time-end">~10:40</span>
+              <a href="/annsannburubu"><span style="font-size: 20px">Ⅰ部</span><br><br><span id="time-ssmall">Sax2  点描の歌<br><br>Trp4  彼は海賊<br><br>Cl  ホワイトノイズ<br><Br>Trb4<br>宇宙戦艦ヤマト<br><br>Hr3<br><small>アルプスの少女ハイジ</small><br><br>W.W6<br>天空の城ラピュタ</span></a>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- 10:00 -->
+          <tr>
+            <th rowspan="12" class="time-timel">10:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th rowspan="12" class="time-timer">10:00</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td rowspan="4" class="time-event">
+              <span class="time-start">10:12~</span>
+              <span class="time-end">~10:35</span>
+              <a href="/ongakukai">個人演奏Ⅱ</a>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="4" class="time-event">
+              <span class="time-start" id="time-slsmall">10:20~</span>
+              <span class="time-end" id="time-slsmall">~10:40</span>
+              <a href="/dassyutu">とある<br>秘密倉庫からの脱出<br>1</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- 10:30 -->
+          <tr>
+            <td></td>
+            <td rowspan="6" class="time-event">
+              <span class="time-start">10:30~</span>
+              <span class="time-end">~11:00</span>
+              <a href="/pcdoukoukai">アルゴリズム講義</a>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+          <td rowspan="6" class="time-event">
+              <span class="time-start">10:41~</span>
+              <span class="time-end">~11:11</span>
+              <a href="/ongakukai">2年クラス合唱</a>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- 11:00 -->
+          <tr>
+            <th rowspan="12" class="time-timel">11:00</th>
+
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="8" class="time-event">
+              <span class="time-start">11:00~</span>
+              <span class="time-end">~11:40</span>
+              <a href="/dassyutu">連続爆破事件<br>からの脱出<br>2</a></td>
+            <td rowspan="4" class="time-event">
+              <span class="time-start" id="time-slsmall">11:00~</span>
+              <span class="time-end" id="time-slsmall">~11:20</span>
+              <a href="/dassyutu">とある<br>秘密倉庫からの脱出<br>2</a></td>
+            <td></td>
+            <th rowspan="12" class="time-timer">11:00</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td rowspan="10" class="time-event-left">
+              <span class="time-start">11:18~</span>
+              <span class="time-end">~12:16</span>
+              <a href="/ongakukai">個人演奏Ⅲ</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- 11:30 -->
+          <tr>
+            <td rowspan="2" class="time-event">
+              <span class="time-start">11:30~</span>
+              <span class="time-end">~11:40</span>
+              <a href="/tyuuou">新時代</a>
+            </td>
+            <td></td>
+            <td rowspan="4" class="time-event">
+              <span class="time-start">11:30~</span>
+              <span class="time-end">~11:50</span>
+              Sifica</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="time-event">
+              <span class="time-start">11:40~</span>
+              <span class="time-end">~11:50</span>
+              <a href="/tyuuou">アイドル</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td rowspan="4" class="time-event"><span class="time-start">11:50~</span><a href="/kizyutudoukoukai">マジック</a><span class="time-end">~12:10</span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="8" class="time-event">
+              <span class="time-start">11:50~</span>
+              <span class="time-end">~12:30</span>
+              <a href="/dassyutu">連続爆破事件<br>からの脱出<br>3</a></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td rowspan="5" class="time-event">
+              <span class="time-start">11:55~</span>
+              Chikuwa
+              <span class="time-end">~12:20</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- 12:00 -->
+          <tr>
+            <th rowspan="12" class="time-timel">12:00</th>
+            <td></td>
+            <td></td>
+            <td rowspan="4" class="time-event">
+              <span class="time-start" id="time-slsmall">12:00~</span>
+              <span class="time-end" id="time-slsmall">~12:20</span>
+              <a href="/dassyutu">とある<br>秘密倉庫からの脱出<br>3</a></td>
+            <td rowspan="12" class="time-event"><span class="time-start">12:00~</span>Xｰmodel<br>ADDITIONAL<br>LIVE<br>2023<span class="time-end">~13:00</span></td>
+            <th rowspan="12" class="time-timer">12:00</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td rowspan="6" class="time-event-left">
+              <span class="time-start">12:19~</span>
+              <span class="time-end">~12:49</span>
+              <a href="/ongakukai">3年クラス合唱</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td class="time-event">
+              <span class="time-start" id="time-ssmall">12:25~</span>
+              <span class="time-end" id="time-ssmall">~12:30</span>
+              <a href="/tyuuou"><span>LOVE_SICK</span></a></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- 12:30 -->
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="4" class="time-event">
+              <span class="time-start">12:35~</span>
+              <span class="time-end">12:55~</span>
+              .mp5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="8" class="time-event">
+              <span class="time-start">12:40~</span>
+              <span class="time-end">~13:20</span>
+              <a href="/dassyutu">連続爆破事件<br>からの脱出<br>4</a></td>
+            <td rowspan="4" class="time-event">
+              <span class="time-start" id="time-slsmall">12:40~</span>
+              <span class="time-end" id="time-slsmall">~13:00</span>
+              <a href="/dassyutu">とある<br>秘密倉庫からの脱出<br>4</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- 13:00 -->
+          <tr>
+            <th rowspan="12" class="time-timel">13:00</th>
+            
+            <td rowspan="3" class="time-event-left">
+              <span class="time-start">12:57~</span>
+              <span class="time-end">~13:12</span>
+              <a href="/guri">グリー部</a>
+            </td>
+            <td rowspan="2" class="time-event">
+              <span class="time-start" id="time-slsmall">13:00~</span>
+              <span class="time-end" id="time-slsmall">~13:10</span>
+              <a href="/tyuuou">快晴</a>
+            </td>
+            <td rowspan="6" class="time-event">
+              <span class="time-start">13:00~</span>
+              <span class="time-end">~13:30</span>
+              <a href="/pcdoukoukai">アルゴリズム講義</a>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th rowspan="12" class="time-timer">13:00</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td rowspan="4" class="time-event">
+              <span class="time-start">13:10~</span>
+              <span class="time-end">~13:30</span>
+              <a href="/tyuuou">甲コレ</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="4" class="time-event">
+              <span class="time-start"  id="time-slsmall">13:20~</span>
+              <span class="time-end" id="time-slsmall">~13:45</span>
+              <a href="/dassyutu">とある<br>秘密倉庫からの脱出<br>5</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- 13:30 -->
+          <tr>
+            <td rowspan="3" class="time-event">
+              <span class="time-start">13:30~</span>
+              <span class="time-end">~13:45</span>
+              <a href="/annsannburubu">アンサンブル部</a></td>
+            <td rowspan="2" class="time-event">
+              <span class="time-start" id="time-slsmall">13:30~</span>
+              <span class="time-end" id="time-slsmall">~13:40</span>
+              <a href="/tyuuou">点描の歌</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="8" class="time-event">
+              <span class="time-start">13:30~</span>
+              <span class="time-end">~14:10</span>
+              <a href="/dassyutu">連続爆破事件<br>からの脱出<br>5</a>
+            </td>
+            <td rowspan="12" class="time-event">
+              <span class="time-start">13:00~</span>
+              <span class="time-end">~14:00</span>
+              <a href="/essbu">ESS部</a>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td rowspan="3" class="time-event-left">
+              <span class="time-start">13:45~</span>
+              <span class="time-end">~14:00</span>
+              <a href="/ongakukai">表彰式</a>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- 14:00 -->
+          <tr>
+            <th rowspan="12" class="time-timel time-bot">14:00</th>
+            <td></td>
+            <td rowspan="2" class="time-event">
+              <span class="time-start" id="time-slsmall">14:00~</span>
+              <span class="time-end" id="time-slsmall">~14:10</span>
+              <a href="/tyuuou">DNA</a>
+            </td>
+            <td rowspan="6" class="time-event">
+              <span class="time-start">14:00~</span>
+              <span class="time-end">~14:30</span>
+              <a href="/pcdoukoukai">chatGPTを使った<br>プログラミング実演</a>
+            </td>
+            <td></td>
+            <td></td>
+            <td rowspan="4" class="time-event">
+              <span class="time-start" id="time-slsmall">14:00~</span>
+              <span class="time-end" id="time-slsmall">~14:20</span>
+              <a href="/dassyutu">とある<br>秘密倉庫からの脱出<br>6</a></td>
+            <th rowspan="12" class="time-timer time-bot">14:00</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td rowspan="2" class="time-event">
+              <span class="time-start" id="time-slsmall">14:10~</span>
+              <span class="time-end" id="time-slsmall">~14:20</span>
+              <a href="/tyuuou">Gangnam style</a>
+            </td>
+            <td></td>
+            <td rowspan="10" class="time-event">
+              <span class="time-start">14:10~</span>
+              <span class="time-end">~15:00</span>
+              <a href="/annsannburubu"><span style="font-size: 20px">Ⅱ部</span><Br><br><span id="time-ssmall">恋<br><br>A列車で行こう<br><br>たなばた<br><br>We Are Confidence Man<br><Br>美しい鰭<br><br>可愛くてごめん<br><br>プロヴァンスの風</span></a>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td rowspan="2" class="time-event">
+              <span class="time-start" id="time-slsmall">14:20~</span>
+              <span class="time-end" id="time-slsmall">~14:30</span>
+              <a href="/tyuuou">メドレー</a></td>
+            <td></td>
+            <td rowspan="8" class="time-event">
+              <span class="time-start">14:20~</span>
+              <span class="time-end">~15:00</span>
+              <a href="/dassyutu">連続爆破事件<br>からの脱出<br>6</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- 14:30 -->
+          <tr>
+            <td></td>
+            <td rowspan="2" class="time-event">
+              <span class="time-start" id="time-slsmall">14:30~</span>
+              <span class="time-end" id="time-slsmall">~14:40</span>
+              <a href="/tyuuou">B小町</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="4" class="time-event">
+              <span class="time-start" id="time-slsmall">14:40~</span>
+              <span class="time-end" id="time-slsmall">~15:00</span>
+              <a href="/dassyutu">とある<br>秘密倉庫からの脱出<br>7</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>   
+      </div>
+      <div class="time-mov">
+      <div class="time-first timetable-big">
         <div class="line nineo">9:00</div>
         <div class="line ninet"></div>
         <div class="line teno">10:00</div>
@@ -818,4 +1553,5 @@
           </tr>
         </table>   
       </div> 
+      </div>
     </div>

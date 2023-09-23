@@ -23,6 +23,7 @@ body{
 .title-main{
   width:70%;
   margin:0 auto;
+  z-index: 1000;
 }
 @font-face {
     font-family: "fgm";
@@ -210,6 +211,8 @@ nav.globalMenuSp {
   opacity: 0;
   transition: opacity .6s ease, visibility .6s ease;
   height:100vh;
+  
+  z-index: -1;
 }
 
 nav.globalMenuSp ul {
@@ -398,7 +401,7 @@ nav li a{
 }
 .title-img{
   height: 130px;
-  width: 350px;
+  width: 320px;
   object-fit: cover;
   object-position: 50% 0%;
   display: block;

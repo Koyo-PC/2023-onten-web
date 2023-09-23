@@ -6,9 +6,9 @@ function init() {
         const atag = elem.querySelector("a");
         const button = atag.querySelector("img")
         if(elem.id == params.get("from")) {
-            button.src = "./navigate/photos/statpointbutton.jpg"
+            button.src = "./navigate/photos/image.webp"
         } else {
-            atag.href = "./?from=" + params.get("from") + "&to=" + elem.id
+            atag.href = "./index.html?from=" + decodeURI(params.get('from')) + "&to=" + elem.id
         }
     })
 }
